@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/msweblaboratory.freedomain.thehost/webstat"
+AuthUserFile /var/www/admin/data/etc/292642.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

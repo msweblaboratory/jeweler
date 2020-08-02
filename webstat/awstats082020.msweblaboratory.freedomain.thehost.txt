@@ -1,0 +1,305 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 202008 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.msweblaboratory.freedomain.thehost.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2703                
+POS_VISITOR 3497                
+POS_DAY 4159                
+POS_DOMAIN 4314                
+POS_LOGIN 4547                
+POS_ROBOT 4702                
+POS_WORMS 4920                
+POS_EMAILSENDER 5051                
+POS_EMAILRECEIVER 5194                
+POS_SESSION 5270                
+POS_SIDER 5444                
+POS_FILETYPES 6266                
+POS_DOWNLOADS 6539                
+POS_OS 6587                
+POS_BROWSER 6725                
+POS_SCREENSIZE 6926                
+POS_UNKNOWNREFERER 7000                
+POS_UNKNOWNREFERERBROWSER 7087                
+POS_ORIGIN 7169                
+POS_SEREFERRALS 7306                
+POS_PAGEREFS 7450                
+POS_SEARCHWORDS 7700                
+POS_KEYWORDS 7852                
+POS_MISC 2367                
+POS_ERRORS 7911                
+POS_CLUSTER 4403                
+POS_SIDER_404 8038                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200801235322 1433 367918 10342687731175
+FirstTime 20200801001229
+LastTime 20200801235322
+LastUpdate 20200802000103 1433 0 1433 0 0
+TotalVisits 17                  
+TotalUnique 14                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 73 198 7035935 3 5 5077
+1 69 215 11577206 9 40 43676
+2 3 3 5337 8 8 17466
+3 0 0 0 0 0 0
+4 1 1 2911 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 2 2 5835 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 1 1 2915 0 0 0
+11 0 0 0 0 0 0
+12 26 111 22092455 3 14 14731
+13 1 1 2911 0 0 0
+14 1 1 2913 1 1 1038
+15 0 0 0 1 2 2817
+16 4 41 2475937 0 18 17178
+17 0 2 141681 0 3 3218
+18 7 35 18778862 1 13 11762
+19 1 1 2911 0 0 0
+20 0 0 0 0 0 0
+21 98 279 8926641 3 54 71147
+22 41 268 19791175 2 33 73913
+23 16 78 18968659 0 5 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 14
+176.36.102.180 191 813 91172633 20200801234146 20200801211211 /home
+193.37.193.86 139 410 18604399 20200801014512
+101.36.174.131 3 3 5337 20200801025043
+104.238.233.225 1 1 2913 20200801014845
+189.126.77.80 1 1 2911 20200801193300
+181.94.193.18 1 1 2911 20200801040433
+201.220.148.4 1 1 2909 20200801004713
+94.141.3.195 1 1 2913 20200801072435
+62.175.204.4 1 1 2913 20200801142452
+62.103.77.120 1 1 2922 20200801070946
+177.16.222.171 1 1 2920 20200801011255
+5.160.111.95 1 1 2911 20200801131610
+111.92.243.93 1 1 2915 20200801103826
+103.53.113.216 1 1 2777 20200801235322 20200801235322 /
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20200801 344 1237 109814284 17
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 344 1237 109814284
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+^mozilla\/5\.0$ 1 1743 20200801154520 0
+mediapartners\-google 1 4366 20200801011546 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 11
+1h+ 1
+2mn-5mn 1
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/backend/cms 206 2070892 2 2
+/home 63 290380 0 2
+/ 24 55234 14 11
+/modules/system/assets/ui/font/fontawesome-webfont.woff 11 884592 0 0
+/backend/backend 10 116680 0 0
+/backend/backend/auth/signin 8 18365 0 0
+/backend 4 55348 0 0
+/themes/jeweler/assets/css/template.css.map 3 5400 0 0
+/index.php 2 3560 1 0
+/backend/system/updates 2 10919 0 0
+/backend/rainlab/pages 1 5107 0 0
+/blog 1 3283 0 0
+/backend/cms/themes 1 5724 0 0
+/backend/system/settings/update/october/cms/maintenance_settings 1 5704 0 0
+/works 1 3289 0 0
+/contact-us 1 3291 0 0
+/backend/backend/media 1 6238 0 0
+/backend/system/eventlogs 1 8033 0 0
+/backend/rainlab/builder 1 4568 0 0
+/backend/system/settings 1 4697 0 0
+/shope 1 3287 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+png 346 18388672 0 0
+woff 11 884592 0 0
+Unknown 304 2615805 0 0
+html 24 55234 0 0
+svg 71 208145 0 0
+js 295 28835838 0 0
+map 3 5400 0 0
+gif 6 51040761 0 0
+jpg 24 4639192 0 0
+php 2 3560 0 0
+css 151 3137085 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 5 5
+macosx11 2 2
+win7 4 4
+linux 813 191
+winlong 3 3
+macosx 410 139
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome84.0.4147.89 20 4
+chrome51.0.2704.103 1 1
+firefox3.6 3 3
+chrome52.0.2743.116 8 8
+safari9.1.2 2 2
+firefox80.0 793 187
+chrome83.0.4103.116 410 139
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28 35
+From1 0 0
+From2 0 0
+From3 1 2
+From4 315 1200
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://176.114.6.173/modules/system/assets/css/styles.css 1 1
+http://176.114.6.173/pages/home.htm 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+500 4 85286
+403 4 2490
+404 142 152106
+302 12 16032
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 15
+/pages/home.htm 1 -
+/themes/jeweler/assets/images/october.png 7 -
+/TP/public/index.php 1 -
+/robots.txt 2 -
+/html/public/index.php 1 -
+/thinkphp/html/public/index.php 1 -
+/assets/components/bootstrap4/libs/jq/3.3.1/jquery-3.3.1.min.js 27 http://msweblaboratory.freedomain.thehost.com.ua/home
+/ads.txt 1 -
+/TP/index.php 1 -
+/elrekt.php 1 -
+/public/index.php 1 -
+/TP/html/public/index.php 1 -
+/assets/components/bootstrap4/4.4.1/dist/js/bootstrap.min.js 47 http://msweblaboratory.freedomain.thehost.com.ua/home
+/assets/js/main.js 49 http://msweblaboratory.freedomain.thehost.com.ua/home
+/GponForm/diag_Form 1 -
+END_SIDER_404

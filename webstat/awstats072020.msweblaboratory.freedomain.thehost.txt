@@ -1,0 +1,440 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 202007 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.msweblaboratory.freedomain.thehost.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2689                
+POS_VISITOR 13775               
+POS_DAY 15543               
+POS_DOMAIN 3427                
+POS_LOGIN 3661                
+POS_ROBOT 3816                
+POS_WORMS 3948                
+POS_EMAILSENDER 4079                
+POS_EMAILRECEIVER 4222                
+POS_SESSION 15691               
+POS_SIDER 15885               
+POS_FILETYPES 4357                
+POS_DOWNLOADS 4641                
+POS_OS 4732                
+POS_BROWSER 4892                
+POS_SCREENSIZE 5131                
+POS_UNKNOWNREFERER 5205                
+POS_UNKNOWNREFERERBROWSER 5292                
+POS_ORIGIN 5374                
+POS_SEREFERRALS 5514                
+POS_PAGEREFS 5658                
+POS_SEARCHWORDS 5806                
+POS_KEYWORDS 5958                
+POS_MISC 2353                
+POS_ERRORS 6017                
+POS_CLUSTER 3517                
+POS_SIDER_404 6183                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200801001229 1 0 18019220516705
+FirstTime 20200729084511
+LastTime 20200731235848
+LastUpdate 20200802000103 1 0 0 0 0
+TotalVisits 60                  
+TotalUnique 44                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 44                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 1 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 53 61 2659445 7 8 31078
+1 76 86 17393430 6 6 116616
+2 1 1 2922 0 0 0
+3 4 4 8963 8 8 17462
+4 2 2 6575 1 1 0
+5 0 0 0 0 0 0
+6 2 2 5831 1 1 0
+7 0 0 0 0 0 0
+8 3 3 4760 2 2 752
+9 350 1068 53486162 31 38 4998387
+10 112 220 5491999 13 54 99904
+11 63 147 6680808 11 16 42466
+12 2 2 16399 1 1 0
+13 30 105 210958 0 5 5366
+14 149 233 7790761 5 7 32312
+15 31 70 190089 1 13 14182
+16 42 48 605416 1 1 0
+17 25 30 74531 8 8 17472
+18 40 56 549383 9 13 35083
+19 29 94 5877696 11 75 100724
+20 267 482 76615557 44 145 8720353
+21 190 335 23090278 37 258 272560
+22 197 344 385938523 33 196 260750
+23 329 558 13989050 18 327 419668
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1997 3951 419875539
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 522 7142566 0 0
+gif 27 153126713 0 0
+jpg 27 2017040 0 0
+php 40 438625 0 0
+map 22 39600 0 0
+js 866 63585578 0 0
+Unknown 1418 8315895 0 0
+svg 316 679995 0 0
+html 466 978677 0 0
+woff 51 1356927 0 0
+png 196 1379926 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/storage/app/media/start.mp4 0 9 180813997
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win10 14 14
+winlong 9 9
+linux 96 30
+macosx 3802 1914
+win7 21 20
+linuxandroid 13 5
+macosx11 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+netscape5.0 3 2
+firefox80.0 96 30
+chrome83.0.4103.116 3692 1867
+chrome52.0.2743.116 12 12
+firefox3.6 9 9
+safari9.1.2 5 5
+chrome84.0.4147.89 9 3
+chrome51.0.2704.103 20 20
+firefox79.0 114 49
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 419 422
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1578 3538
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+302 32 42734
+406 1 1308
+206 6 13079043
+404 1049 1144115
+500 64 893943
+403 2 1240
+400 18 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 83
+/TP/public/index.php 3 -
+/thinkphp/html/public/index.php 3 -
+/install.php 2 -
+/%7B%7B%20'../assets/images/start-logo.png'%20%7Capp%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/coin.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/themes/jeweler/assets/javascript/app.js 294 http://msweblaboratory.freedomain.thehost.com.ua/
+/TP/index.php 3 -
+/assets/images/podves.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%7B%20'/assets/images/start-logo.png'%20%7Capp%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/home 1 -
+/themes/jeweler/assets/images/brosh.png 1 http://msweblaboratory.freedomain.thehost.com.ua/home
+/themes/jeweler/assets/css/assets/images/start.gif 13 http://msweblaboratory.freedomain.thehost.com.ua/themes/jeweler/assets/css/template.css
+/public/index.php 3 -
+/images/start-logo.png 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/themes/jeweler/assets/css/.css 47 http://msweblaboratory.freedomain.thehost.com.ua/shope
+/%7B%7B%20'../assets/images/start-logo.png'%20%7Capp%20%7Ctheme%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/www/msweblaboratory.freedomain.thehost/themes/jeweler/assets/images/start-logo.png 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/start-logo.png'%20%7Capp%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'../assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 11 http://msweblaboratory.freedomain.thehost.com.ua/
+/cgi-bin/kerbynet 1 -
+/themes/assets/images/start-logo.png 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/backend/assets/images/main-logo.png 4 http://msweblaboratory.freedomain.thehost.com.ua/backend/cms
+/backend/%7B%7B%20'assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/backend/cms
+/%7B%7B%20'start-logo.png'%20%7Cmedia%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/main-logo.png 43 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/keychain.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/assets/images/replica.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%7B%20'/assets/images/start-logo.png'%20%7Cmedia%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/themes/jeweler/assets/css/theme.css 193 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'images/start-logo.png'%20%7Capp%20%7Ctheme%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/phpmyadmin/ 1 -
+/admin 1 -
+/TP/html/public/index.php 3 -
+/%7B%7B%20'assets/images/main-logo.png'%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/backand 1 -
+/%7B%20'assets/images/cepochka.png'%20%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%7B%20'./images/start-logo.png'%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/carousel_img.jpg 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/html/public/index.php 3 -
+/themes/jeweler/assets/assets/images/start.gif 3 http://msweblaboratory.freedomain.thehost.com.ua/themes/jeweler/assets/css/template.css
+/images/start.gif 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/ispmanager 1 -
+/assets/images/cepochka.png 4 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%20'assets/images/cepochka.png'%20%7Ctheme%20%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/home
+/isp 1 -
+/themes/jeweler/assets/vendor/jquery.js 92 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/kolco.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%7B%20'/.images/start-logo.png'%20%7Ctheme%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/assets/images/start-logo.png'%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/assets/images/start-logo.png'%20%7Capp%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'../assets/images/carousel_img.jpg'%20%7Ctheme%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/brosh.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/themes/jeweler/assets/vendor/bootstrap.js 106 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'assets/images/carousel_img.jpg'%20%7Cmedia%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/'/assets/images/start-logo.png'%20alt= 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/themes/jeweler/assets/images/october.png 18 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'~assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/start-logo.png'%20%7Ctheme%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/assets/images/start-logo.png'%20|theme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/'../assets/images/start-logo.png'%20alt= 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'~/assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/elrekt.php 3 -
+/%7B%7B%20'../images/start-logo.png'%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/assets/images/start.gif 15 http://msweblaboratory.freedomain.thehost.com.ua/themes/jeweler/assets/css/template.css
+/assets/images/start-logo.png 8 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/assets/images/start-logo.png'%20%7Ccontent%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/storage/app/media/assets/images/cepochka.png 1 http://msweblaboratory.freedomain.thehost.com.ua/home
+/zakaz-izdeliya 1 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%7B%20'/assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 7 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'assets/images/start-logo.png'%20%7Cmedia%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/images/start-logo.png'%20%7Cmedia%20%7D%7D 1 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'/assets/images/carousel_img.jpg'%20%7Ctheme%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'assets/images/start-logo.png'%20%7Capp%20%7D%7D 2 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'assets/images/carousel_img.jpg'%20%7Ctheme%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/install_files/images/leaves.png 1 http://msweblaboratory.freedomain.thehost.com.ua/install_files/css/vendor.css
+/%7B%7B%20'/images/start-logo.png'%20%7Ctheme%20%7D%7D 7 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'../assets/images/start-logo.png'%20%7Cmedia%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/%7B%7B%20'assets/images/start-logo.png'%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/
+/backend/%7B%7B%20'/assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/backend/cms
+/start 7 -
+/themes/jeweler/assets/css/%7B%7B%20'assets/images/start.gif'%20%7D%7D 3 http://msweblaboratory.freedomain.thehost.com.ua/themes/jeweler/assets/css/template.css
+/assets/images/sergi.png 9 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%7B%7B%20'assets/images/start-logo.png'%20%7Ctheme%20%7D%7D 7 http://msweblaboratory.freedomain.thehost.com.ua/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 44
+193.37.193.86 1916 3806 381633024 20200731235848
+176.36.102.180 30 96 20975128 20200730213217
+46.133.156.115 3 9 17081044 20200731202300
+111.229.39.142 3 3 9204 20200729111401
+122.51.58.70 3 3 8810 20200730174110
+206.189.44.118 3 3 5335 20200731034339
+52.114.77.26 2 3 7598 20200731202322
+189.173.105.76 1 1 2924 20200731213602
+185.38.209.242 1 1 2913 20200731045536
+142.59.160.46 1 1 7272 20200730135616
+203.222.1.52 1 1 2924 20200731085609
+203.217.100.150 1 1 8181 20200729120609
+123.205.171.117 1 1 1718 20200729172433
+78.163.177.166 1 1 2915 20200731171354
+185.180.131.203 1 1 3582 20200729232349
+59.7.40.83 1 1 1931 20200729202345
+59.126.128.165 1 1 2918 20200730222508
+185.124.213.195 1 1 2909 20200730233956
+108.21.1.6 1 1 8218 20200730121612
+185.251.193.181 1 1 8183 20200729101458
+114.34.237.185 1 1 2916 20200730221718
+200.8.127.141 1 1 3636 20200730013323
+103.51.44.128 1 1 7272 20200730175644
+103.87.102.12 1 1 1718 20200729171136
+78.189.231.226 1 1 1931 20200729203731
+190.82.91.198 1 1 2855 20200730201833
+114.33.153.185 1 1 2924 20200731152605
+61.244.178.18 1 1 8147 20200729143304
+98.116.72.119 1 1 2922 20200731204052
+95.70.169.58 1 1 1707 20200729192517
+62.183.102.12 1 1 3628 20200730031330
+82.81.1.140 1 1 2924 20200731145056
+187.57.66.7 1 1 2922 20200731025427
+36.66.198.3 1 1 8147 20200729150248
+61.65.71.217 1 1 2922 20200731064148
+42.61.99.155 1 1 3662 20200730044657
+91.240.191.221 1 1 8185 20200730130656
+201.142.142.49 1 1 3660 20200730095847
+87.70.22.176 1 1 2922 20200731172504
+79.134.183.216 1 1 7254 20200730134749
+191.100.10.41 1 1 2583 20200730184649
+80.76.236.66 1 1 8153 20200729100305
+177.5.231.18 1 1 2909 20200731091401
+45.229.53.17 1 1 2909 20200731065100
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20200729 683 1586 17593264 20
+20200730 623 1242 450343129 20
+20200731 691 1123 132753143 20
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 2
+30s-2mn 1
+30mn-1h 4
+5mn-15mn 4
+0s-30s 44
+1h+ 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 51
+/backend/cms 738 4887227 3 2
+/ 463 945752 50 49
+/backend/rainlab/pages 179 1211467 0 2
+/home 127 384775 0 4
+/backend/system/updates/install 91 443917 0 0
+/contact-us 42 78778 0 0
+/backend/backend 36 455401 4 1
+/modules/system/assets/ui/font/fontawesome-webfont.woff 31 1179456 0 0
+/backend/system/settings 31 144117 0 0
+/backend/backend/auth/signin 24 55013 0 0
+/plugins/anandpatel/wysiwygeditors/formwidgets/editor/assets/tinymce/skins/lightgray/fonts/tinymce.woff 1 17467 0 0
+/themes/demo/assets/fonts/lato-light-webfont.woff 4 28535 0 0
+/backend/system/updates/install/plugins 7 32515 0 0
+/backend/rainlab/builder 5 135621 0 0
+/backend/system/settings/update/rainlab/builder/config 1 5535 0 0
+/backend/system/updates 14 64344 0 0
+/themes/demo/assets/fonts/lato-black-webfont.woff 4 29139 0 0
+/install_files/css/fonts/installer.woff 1 1677 0 0
+/shope 21 38353 0 0
+/demo/ajax 1 2516 0 0
+/backend/benfreke/menumanager/menus/create 6 23096 0 0
+/backend 4 47909 0 0
+/index.php 6 15566 3 0
+/backend/benfreke/menumanager/menus/update/1 1 5363 0 0
+/backend/backend/preferences 3 28292 0 0
+/backend/benfreke/menumanager/menus/reorder 3 8864 0 0
+/backend/system/settings/update/anandpatel/wysiwygeditors/settings 12 49772 0 0
+/myadmin/js/messages.php 2 22752 0 0
+/backend/cms/themes 2 16637 0 0
+/backend/system/updates/manage 2 13197 0 0
+/backend/system/updates/details/rainlab-pages 1 15842 0 0
+/themes/jeweler/assets/css/template.css.map 22 39600 0 1
+/works 22 42941 0 0
+/myadmin/js/whitelist.php 2 1772 0 0
+/themes/demo/assets/vendor/font-awesome/font/fontawesome-webfont.woff 4 43835 0 0
+/blog 16 27259 0 0
+/backend/benfreke/menumanager/menus 9 43801 0 0
+/themes/demo/assets/fonts/lato-regular-webfont.woff 4 29367 0 0
+/install.php 23 15845 0 0
+/myadmin/js/get_image.js.php 1 2227 0 0
+/myadmin/ 1 5248 0 0
+/themes/demo/assets/fonts/lato-italic-webfont.woff 2 27451 0 0
+/demo/plugins 4 9178 0 0
+/backend/backend/users/myaccount 1 5540 0 0
+/myadmin/phpmyadmin.css.php 1 20463 0 0
+/backend/ 2 27677 0 0
+/myadmin/js/get_scripts.js.php 2 346635 0 0
+/backend/backend/media 3 17941 0 0
+/backend/backend/auth/restore 1 2156 0 0
+/test 11 18528 0 0
+/myadmin/index.php 3 13365 0 1
+END_SIDER
