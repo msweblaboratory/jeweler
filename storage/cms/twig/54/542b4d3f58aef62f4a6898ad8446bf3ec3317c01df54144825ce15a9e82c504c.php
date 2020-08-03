@@ -34,9 +34,12 @@ class __TwigTemplate_4f9bcaf12036038ae7c160476ea8d8890bfd7709533c3ae9e92c6da556f
     {
         $macros = $this->macros;
         // line 1
-        echo "<script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\" integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>
-<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
+        echo "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>
+<script src=\"";
+        // line 3
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/app.js");
+        echo "\"></script>
 ";
         // line 4
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
@@ -59,16 +62,21 @@ class __TwigTemplate_4f9bcaf12036038ae7c160476ea8d8890bfd7709533c3ae9e92c6da556f
         return "/var/www/admin/data/www/msweblaboratory.freedomain.thehost/themes/jeweler/partials/Site/scripts.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  53 => 5,  42 => 4,  37 => 1,);
+        return array (  56 => 5,  45 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\" integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>
-<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
+        return new Source("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>
+<script src=\"{{ 'assets/js/app.js'| theme }}\"></script>
 {% framework extras %}
 {% scripts %}", "/var/www/admin/data/www/msweblaboratory.freedomain.thehost/themes/jeweler/partials/Site/scripts.htm", "");
     }

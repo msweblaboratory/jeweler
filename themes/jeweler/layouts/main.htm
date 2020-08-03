@@ -1,32 +1,44 @@
 description = "main layout"
-
-[staticMenu topMenu]
-code = "main-menu"
 ==
-
 {% partial 'Site/head' %}
 
-<div class="container-fluid fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">JEWELERLAB</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-    {% partial 'Site/menu-items' items=topMenu.menuItems class='nav navbar-nav' %}
-    </div>
-  </div>
-</nav>
-</div>
 
-{% partial 'Home/carousel' %}
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">Jewelerlab</div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                <a class="nav__link" href="#" data-scroll="#services">Предлагаем</a>
+                <a class="nav__link" href="#" data-scroll="#blog">Блог</a>
+                <a class="nav__link" href="#" data-scroll="#works">Работы</a>
+                <a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+                <a class="nav__link" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a class="nav__link" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </nav>
+
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
 
 {%page%}
 
-{% partial 'Site/footer' %}
+
 
 {% partial 'Site/scripts' %}
+
 
     </body>
 </html>

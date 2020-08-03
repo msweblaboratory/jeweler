@@ -9,32 +9,32 @@ AWSTATS DATA FILE 7.4 (build 20150714)
 BEGIN_MAP 28
 POS_GENERAL 2017                
 POS_TIME 2703                
-POS_VISITOR 3497                
-POS_DAY 4159                
-POS_DOMAIN 4314                
-POS_LOGIN 4547                
-POS_ROBOT 4702                
-POS_WORMS 4920                
-POS_EMAILSENDER 5051                
-POS_EMAILRECEIVER 5194                
-POS_SESSION 5270                
-POS_SIDER 5444                
-POS_FILETYPES 6266                
-POS_DOWNLOADS 6539                
-POS_OS 6587                
-POS_BROWSER 6725                
-POS_SCREENSIZE 6926                
-POS_UNKNOWNREFERER 7000                
-POS_UNKNOWNREFERERBROWSER 7087                
-POS_ORIGIN 7169                
-POS_SEREFERRALS 7306                
-POS_PAGEREFS 7450                
-POS_SEARCHWORDS 7700                
-POS_KEYWORDS 7852                
+POS_VISITOR 12932               
+POS_DAY 14384               
+POS_DOMAIN 3398                
+POS_LOGIN 3632                
+POS_ROBOT 3787                
+POS_WORMS 4043                
+POS_EMAILSENDER 4174                
+POS_EMAILRECEIVER 4317                
+POS_SESSION 14501               
+POS_SIDER 14675               
+POS_FILETYPES 4452                
+POS_DOWNLOADS 4733                
+POS_OS 4781                
+POS_BROWSER 4935                
+POS_SCREENSIZE 5243                
+POS_UNKNOWNREFERER 5317                
+POS_UNKNOWNREFERERBROWSER 5404                
+POS_ORIGIN 5486                
+POS_SEREFERRALS 5625                
+POS_PAGEREFS 5769                
+POS_SEARCHWORDS 6019                
+POS_KEYWORDS 6171                
 POS_MISC 2367                
-POS_ERRORS 7911                
-POS_CLUSTER 4403                
-POS_SIDER_404 8038                
+POS_ERRORS 6230                
+POS_CLUSTER 3488                
+POS_SIDER_404 6366                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,87 +46,62 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20200801235322 1433 367918 10342687731175
+LastLine 20200802235130 1762 428776 14598884700754
 FirstTime 20200801001229
-LastTime 20200801235322
-LastUpdate 20200802000103 1433 0 1433 0 0
-TotalVisits 17                  
-TotalUnique 14                  
+LastTime 20200802235130
+LastUpdate 20200803000102 1762 0 1762 0 0
+TotalVisits 42                  
+TotalUnique 34                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 14                  
+MonthHostsUnknown 34                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-PDFSupport 0 0 0
-JavascriptDisabled 0 0 0
-DirectorSupport 0 0 0
-AddToFavourites 0 0 0
-QuickTimeSupport 0 0 0
-JavaEnabled 0 0 0
-TotalMisc 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-RealPlayerSupport 0 0 0
 FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 73 198 7035935 3 5 5077
+0 73 198 7035935 5 7 5077
 1 69 215 11577206 9 40 43676
-2 3 3 5337 8 8 17466
+2 4 4 8110 9 9 20285
 3 0 0 0 0 0 0
 4 1 1 2911 0 0 0
 5 0 0 0 0 0 0
-6 0 0 0 0 0 0
-7 2 2 5835 0 0 0
+6 1 1 2777 0 0 0
+7 4 4 11405 0 0 0
 8 0 0 0 0 0 0
-9 0 0 0 0 0 0
-10 1 1 2915 0 0 0
-11 0 0 0 0 0 0
-12 26 111 22092455 3 14 14731
-13 1 1 2911 0 0 0
-14 1 1 2913 1 1 1038
-15 0 0 0 1 2 2817
-16 4 41 2475937 0 18 17178
-17 0 2 141681 0 3 3218
+9 1 1 2781 0 0 0
+10 3 3 8475 0 0 0
+11 0 0 0 2 2 5554
+12 26 117 22499825 3 14 14731
+13 5 49 5288094 0 1 0
+14 9 9 24090 236 237 246330
+15 10 85 2477888 1 5 2817
+16 52 273 42606625 3 45 31905
+17 31 138 21669422 2 13 11009
 18 7 35 18778862 1 13 11762
-19 1 1 2911 0 0 0
-20 0 0 0 0 0 0
-21 98 279 8926641 3 54 71147
-22 41 268 19791175 2 33 73913
-23 16 78 18968659 0 5 0
+19 96 206 6634951 25 27 70528
+20 203 299 4984238 8 18 59708
+21 278 574 10497735 8 63 145442
+22 115 349 20231032 2 33 73913
+23 28 100 19322232 0 7 2148
 END_TIME
-
-# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
-# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
-# The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 14
-176.36.102.180 191 813 91172633 20200801234146 20200801211211 /home
-193.37.193.86 139 410 18604399 20200801014512
-101.36.174.131 3 3 5337 20200801025043
-104.238.233.225 1 1 2913 20200801014845
-189.126.77.80 1 1 2911 20200801193300
-181.94.193.18 1 1 2911 20200801040433
-201.220.148.4 1 1 2909 20200801004713
-94.141.3.195 1 1 2913 20200801072435
-62.175.204.4 1 1 2913 20200801142452
-62.103.77.120 1 1 2922 20200801070946
-177.16.222.171 1 1 2920 20200801011255
-5.160.111.95 1 1 2911 20200801131610
-111.92.243.93 1 1 2915 20200801103826
-103.53.113.216 1 1 2777 20200801235322 20200801235322 /
-END_VISITOR
-
-# Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 1
-20200801 344 1237 109814284 17
-END_DAY
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-ip 344 1237 109814284
+ip 1016 2661 193664594
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -140,7 +115,8 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 2
+BEGIN_ROBOT 3
+no_user_agent 3 8373 20200802112517 0
 ^mozilla\/5\.0$ 1 1743 20200801154520 0
 mediapartners\-google 1 4366 20200801011546 0
 END_ROBOT
@@ -160,53 +136,19 @@ END_EMAILSENDER
 BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
-# Session range - Number of visits
-BEGIN_SESSION 4
-0s-30s 11
-1h+ 1
-2mn-5mn 1
-5mn-15mn 2
-END_SESSION
-
-# URL - Pages - Bandwidth - Entry - Exit
-# The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 21
-/backend/cms 206 2070892 2 2
-/home 63 290380 0 2
-/ 24 55234 14 11
-/modules/system/assets/ui/font/fontawesome-webfont.woff 11 884592 0 0
-/backend/backend 10 116680 0 0
-/backend/backend/auth/signin 8 18365 0 0
-/backend 4 55348 0 0
-/themes/jeweler/assets/css/template.css.map 3 5400 0 0
-/index.php 2 3560 1 0
-/backend/system/updates 2 10919 0 0
-/backend/rainlab/pages 1 5107 0 0
-/blog 1 3283 0 0
-/backend/cms/themes 1 5724 0 0
-/backend/system/settings/update/october/cms/maintenance_settings 1 5704 0 0
-/works 1 3289 0 0
-/contact-us 1 3291 0 0
-/backend/backend/media 1 6238 0 0
-/backend/system/eventlogs 1 8033 0 0
-/backend/rainlab/builder 1 4568 0 0
-/backend/system/settings 1 4697 0 0
-/shope 1 3287 0 0
-END_SIDER
-
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 11
-png 346 18388672 0 0
-woff 11 884592 0 0
-Unknown 304 2615805 0 0
-html 24 55234 0 0
-svg 71 208145 0 0
-js 295 28835838 0 0
-map 3 5400 0 0
-gif 6 51040761 0 0
-jpg 24 4639192 0 0
-php 2 3560 0 0
-css 151 3137085 0 0
+Unknown 872 5820398 0 0
+svg 139 370718 0 0
+png 558 27300904 0 0
+woff 17 1277744 0 0
+gif 11 102083011 0 0
+js 580 41748087 0 0
+php 6 12598 0 0
+map 46 82800 0 0
+jpg 80 9714560 0 0
+html 75 165364 0 0
+css 277 5088410 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -214,24 +156,31 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 6
-win10 5 5
-macosx11 2 2
-win7 4 4
-linux 813 191
-winlong 3 3
-macosx 410 139
+BEGIN_OS ID - Hits - Pages 7
+win10 17 17
+macosx11 5 5
+winlong 6 6
+macosx 1507 730
+win7 12 12
+linux 1112 244
+winxp 2 2
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 7
-chrome84.0.4147.89 20 4
-chrome51.0.2704.103 1 1
-firefox3.6 3 3
-chrome52.0.2743.116 8 8
-safari9.1.2 2 2
-firefox80.0 793 187
+BEGIN_BROWSER 13
+firefox79.0 47 7
+firefox28.0 5 5
 chrome83.0.4103.116 410 139
+netscape5.0 1 1
+safari9.1.2 5 5
+chrome84.0.4147.89 53 9
+msie8.0 2 2
+firefox3.6 6 6
+firefox9.0.1 1 1
+chrome52.0.2743.116 16 16
+firefox80.0 2021 810
+chrome84.0.4147.105 88 9
+chrome51.0.2704.103 6 6
 END_BROWSER
 
 # Screen size - Hits
@@ -248,11 +197,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 28 35
+From0 128 149
 From1 0 0
 From2 0 0
 From3 1 2
-From4 315 1200
+From4 887 2510
 From5 0 0
 END_ORIGIN
 
@@ -278,28 +227,360 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 4
-500 4 85286
+BEGIN_ERRORS 5
+302 20 26445
+400 2 0
 403 4 2490
-404 142 152106
-302 12 16032
+404 427 552858
+500 7 148610
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 15
-/pages/home.htm 1 -
+BEGIN_SIDER_404 253
+/aa.php 1 -
+/1x.php 1 -
+/indea.php 1 -
+/z.php 1 -
+/images/vuln.php 1 -
+/floaw.php 1 -
+/444.php 1 -
+/websql/index.php 1 -
+/Joomla/ 1 -
+/db/index.php 1 -
+/ffr.php 1 -
+/cgi-bin/php5 1 -
+/muhstik-dpr.php 1 -
+/%69%73%70%69%72%69%74/%69%6D/%75%70%6C%6F%61%64%2E%70%68%70 1 -
+/phpMyAdmin4.8.0/index.php 1 -
+/phpMyAdmina/index.php 1 -
+/phpMyAdminhf/index.php 1 -
+/[[*blog_image]] 1 http://msweblaboratory.freedomain.thehost.com.ua/blog
+/uploader.php 1 -
+/phpmyadmin/phpmyadmin/index.php 1 -
+/admin/phpmyadmin2/index.php 1 -
+/phppma/index.php 1 -
+/my.php 1 -
+/w.php 1 -
+/phpmyadmin2/index.php 1 -
+/www/phpMyAdmin/index.php 1 -
+/phpMyAdmin333/index.php 1 -
+/beckend 1 -
+/tt.php 1 -
+/phpMyAdminold/index.php 1 -
+/phpmyadmin/scripts/setup.php 1 -
+/cgi-bin/php.cgi 1 -
+/admin/index.php 1 -
+/99.php 1 -
+/cmdd.php 1 -
+/TP/index.php 2 -
+/license.php 1 -
+/sheep.php 1 -
+/appserv.php 1 -
+/cgi-bin/php 1 -
+/mysql/sqlmanager/index.php 1 -
+/phpmyadmin-old/index.php 1 -
+/jj1.php 1 -
+/Adminad0672b0/Login.php 1 -
+/415.php 1 -
+/mjx.php 1 -
+/scripts/setup.php 1 -
+/mysql/index.php 1 -
+/myadmin2/index.php 1 -
+/shaAdmin/index.php 1 -
+/zz.php 1 -
+/phpmy/index.php 1 -
+/cmv.php 1 -
+/solr/ 1 -
+/phpMyadmi/index.php 1 -
+/phpMyAdmin__/index.php 1 -
+/hue2.php 1 -
+/pmamy/index.php 1 -
+/muhstiks.php 1 -
+/images/jsspwneed.php 1 -
+/elrekt.php 3 -
+/phpmyadmin/scripts/db___.init.php 1 -
+/blog-post:/slug 11 http://msweblaboratory.freedomain.thehost.com.ua/blog/category/uncategorized
+/web/phpMyAdmin/index.php 1 -
 /themes/jeweler/assets/images/october.png 7 -
-/TP/public/index.php 1 -
-/robots.txt 2 -
-/html/public/index.php 1 -
-/thinkphp/html/public/index.php 1 -
-/assets/components/bootstrap4/libs/jq/3.3.1/jquery-3.3.1.min.js 27 http://msweblaboratory.freedomain.thehost.com.ua/home
-/ads.txt 1 -
-/TP/index.php 1 -
-/elrekt.php 1 -
-/public/index.php 1 -
-/TP/html/public/index.php 1 -
+/phpMyAdmin/scripts/db___.init.php 1 -
+/www.php 1 -
+/5678.php 1 -
+/images/stories/filemga.php 1 -
+/PMA/scripts/setup.php 1 -
 /assets/components/bootstrap4/4.4.1/dist/js/bootstrap.min.js 47 http://msweblaboratory.freedomain.thehost.com.ua/home
+/public/index.php 2 -
+/images/up.php 1 -
+/421.php 1 -
+/bbakend 1 -
+/phpMyAdmin_111/index.php 1 -
+/98k.php 1 -
+/ak.php 1 -
+/1/index.php 1 -
+/ads.txt 2 -
+/phpMyadmin_bak/index.php 1 -
+/db_pma.php 1 -
+/bbs/index.php 1 -
+/TP/public/index.php 2 -
+/phpMyAdmin._/index.php 1 -
+/phpmyadmin1/index.php 1 -
+/__phpMyAdmin/index.php 1 -
+/joomla/ 2 -
+/help.php 1 -
+/pma/scripts/db___.init.php 1 -
+/%62%61%73%65/%70%6F%73%74%2E%70%68%70 1 -
+/zzz.php 1 -
+/123131/index.php 1 -
+/yuyang.php 1 -
+/baidoubi.php 1 -
+/v/index.php 1 -
+/phpMyAdmin-4.4.0/index.php 1 -
+/typo3/phpmyadmin/index.php 1 -
+/%75%73%65%72/%72%65%67%69%73%74%65%72 1 -
+/php2MyAdmin/index.php 1 -
+/forum/index.php 1 -
+/blog/post/:slug 2 http://msweblaboratory.freedomain.thehost.com.ua/backend/cms
+/TP/html/public/index.php 2 -
+/phpadmin/index.php 1 -
+/hd.php 1 -
+/phpMyAdmin123/index.php 1 -
+/images/!.php 1 -
+/_query.php 1 -
+/composers.php 1 -
+/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php 1 -
+/phpMyAdmin/phpMyAdmin/index.php 1 -
+/phpMyAdmin+++---/index.php 1 -
+/plugins/weathermap/editor.php 1 -
+/myadmin/scripts/setup.php 1 -
+/phpMyAdmln/index.php 1 -
+/phpMyAdmion/index.php 1 -
+/meijianxue.php 1 -
+/phpNyAdmin/index.php 1 -
+/whoami.php 1 -
+/admin/mysql2/index.php 1 -
+/HNAP1/ 1 http://176.114.6.173:81/
+/huoshan.php 1 -
+/phpiMyAdmin/index.php 1 -
+/phpMyAdmin4.8.3/index.php 1 -
+/muhstik.php 2 -
+/pma/index.php 1 -
+/xampp/phpmyadmin/index.php 1 -
+/phpMyAdmin1/index.php 1 -
+/spider.php 1 -
+/undx.php 1 -
+/secure/ContactAdministrators!default.jspa 1 -
+/admin/mysql/index.php 1 -
+/bakend 1 -
+/admin/phpmyadmin/index.php 1 -
+/help-e.php 1 -
+/mysql/dbadmin/index.php 1 -
+/a411.php 1 -
+/taisui.php 1 -
+/mysql-admin/index.php 1 -
+/%73%65%65%79%6F%6E/%68%74%6D%6C%6F%66%66%69%63%65%73%65%72%76%6C%65%74 1 -
+/myadmin/scripts/db___.init.php 1 -
+/logon.php 1 -
+/weathermap/editor.php 1 -
+/composer.php 1 -
+/assets/images/start.gif 15 http://msweblaboratory.freedomain.thehost.com.ua/themes/jeweler/assets/css/template.css
+/woshimengmei.php 1 -
+/cmd.php 2 -
+/phpMyAdmin.old/index.php 1 -
+/phpMyAdminn/index.php 1 -
+/b.php 1 -
 /assets/js/main.js 49 http://msweblaboratory.freedomain.thehost.com.ua/home
+/9678.php 1 -
+/xw1.php 1 -
+/qq.php 1 -
+/images/attari.php 1 -
+/cgi-bin/php4 1 -
+/forums.php 1 -
+/pp.php 1 -
+/phpmadmin/index.php 1 -
+/aaa.php 1 -
+/test.php 2 -
+/zakaz-izdeliya 1 http://msweblaboratory.freedomain.thehost.com.ua/blog/post/new-post
+/981.php 1 -
+/becend 2 -
+/phpMyAdmin4.8.4/index.php 1 -
+/SQL/index.php 1 -
+/rxr.php 1 -
+/phpmyadmin/index.php 1 -
+/xiu.php 1 -
+/PMA2/index.php 1 -
+/bbs.php 1 -
+/bb.php 1 -
+/pwd/index.php 1 -
+/pmd/index.php 1 -
+/no1.php 1 -
 /GponForm/diag_Form 1 -
+/cgi-bin/php-cgi 1 -
+/home.php 1 -
+/assets/components/bootstrap4/libs/jq/3.3.1/jquery-3.3.1.min.js 27 http://msweblaboratory.freedomain.thehost.com.ua/home
+/%75%73%65%72%2e%70%68%70 1 554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:2:\"id\"
+/MyAdmin/index.php 1 -
+/phpMyAdm1n/index.php 1 -
+/mysqladmin/index.php 1 -
+/PMA/index.php 1 -
+/root11.php 1 -
+/pmd_online.php 1 -
+/1ts.php 1 -
+/888.php 1 -
+/xiaxia.php 1 -
+/MyAdmin/scripts/db___.init.php 1 -
+/sqladmin/index.php 1 -
+/up.php 1 -
+/desktop.ini.php 1 -
+/wpo.php 1 -
+/bekend 4 -
+/mysql/mysqlmanager/index.php 1 -
+/admin/pma/index.php 1 -
+/dp.php 1 -
+/images/stories/cmd.php 1 -
+/xx.php 2 -
+/d7.php 1 -
+/887.php 1 -
+/pma/scripts/setup.php 1 -
+/admin/PMA/index.php 1 -
+/axis2/axis2-admin/login 1 -
+/pages/home.htm 1 -
+/console/login/LoginForm.jsp 1 -
+/dbadmin/index.php 1 -
+/lang.php 1 -
+/phpmyadm1n/index.php 1 -
+/text.php 1 -
+/ftmabc.php 1 -
+/l.php 1 -
+/tools/phpMyAdmin/index.php 1 -
+/phpMydmin/index.php 1 -
+/jjj.php 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/phpmyadmin2222/index.php 1 -
+/wuwu11.php 1 -
+/claroline/phpMyAdmin/index.php 1 -
+/MySQLAdmin/index.php 1 -
+/mysql_admin/index.php 1 -
+/admin/phpMyAdmin/index.php 1 -
+/phpAdmin/index.php 1 -
+/PMA/scripts/db___.init.php 1 -
+/new_license.php 1 -
+/html/public/index.php 2 -
+/muhstik2.php 1 -
+/MyAdmin/scripts/setup.php 1 -
+/sbb/index.php 1 -
+/forums/index.php 1 -
+/9.php 1 -
+/phpMyAdmin4.8.1/index.php 1 -
+/shell.php 2 -
+/webdav/ 1 -
+/izom.php 2 -
+/lala.php 1 -
+/phpMyAdmin4.8.5/index.php 1 -
+/log.php 1 -
+/phpinfo.php 1 -
+/robots.txt 4 -
+/kk.php 1 -
+/xiaoxia.php 1 -
+/thinkphp/html/public/index.php 2 -
+/root.php 1 -
+/index.php/module/action/param1/${@die(md5(HelloThinkPHP))} 1 -
+/phpmyadmin3333/index.php 1 -
+/sql/index.php 1 -
+/weaver/bsh.servlet.BshServlet 1 -
+/payload.php 1 -
+/java.php 1 -
+/lala-dpr.php 1 -
+/haiyan.php 1 -
 END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 34
+193.37.193.86 730 1507 77615384 20200802235130 20200802190257 /backend/cms
+176.36.102.180 244 1112 115940377 20200802205622
+193.112.9.107 7 7 18404 20200802143606
+101.36.174.131 3 3 5337 20200801025043
+195.154.118.76 3 3 5236 20200802193306
+94.141.3.195 1 1 2913 20200801072435
+219.102.153.159 1 1 2783 20200802072054
+201.220.148.4 1 1 2909 20200801004713
+180.118.207.238 1 1 1714 20200802190559
+168.181.120.4 1 1 2781 20200802234703 20200802234703 /
+103.118.46.108 1 1 2775 20200802210410
+168.227.96.15 1 1 2777 20200802061023
+191.7.141.16 1 1 2781 20200802094440
+111.92.243.93 1 1 2915 20200801103826
+114.34.94.64 1 1 2783 20200802224644
+81.193.206.140 1 1 2787 20200802074049
+104.238.233.225 1 1 2913 20200801014845
+177.16.222.171 1 1 2920 20200801011255
+62.103.77.120 1 1 2922 20200801070946
+168.0.81.193 1 1 2773 20200802194833
+189.126.77.80 1 1 2911 20200801193300
+52.114.77.26 1 1 1765 20200802163344
+62.175.204.4 1 1 2913 20200801142452
+89.39.175.100 1 1 2785 20200802101915
+118.97.97.138 1 1 2775 20200802104148
+185.27.44.7 1 1 2773 20200802155017
+59.126.92.118 1 1 2781 20200802133920
+119.18.145.147 1 1 2777 20200802214721
+181.94.193.18 1 1 2911 20200801040433
+5.160.111.95 1 1 2911 20200801131610
+31.128.17.209 1 1 2773 20200802142838
+79.55.139.16 1 1 2785 20200802232448 20200802232448 /
+103.53.113.216 1 1 2777 20200801235322
+78.171.252.163 1 1 2773 20200802022052
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20200801 344 1237 109814284 17
+20200802 672 1424 83850310 25
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+2mn-5mn 3
+0s-30s 30
+1h+ 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 34
+/backend/cms 390 3756503 2 2
+/backend/rainlab/blog/posts/update/2 167 450792 0 0
+/home 87 412964 4 4
+/ 75 165364 34 30
+/themes/jeweler/assets/css/template.css.map 46 82800 0 1
+/blog 42 165791 0 1
+/backend/system/updates/install 26 174417 0 0
+/blog/category/new-category 18 68540 0 0
+/blog/post/new-post 17 61298 0 0
+/modules/system/assets/ui/font/fontawesome-webfont.woff 17 1277744 0 1
+/backend 14 193722 0 0
+/backend/rainlab/blog/categories/create 2 5480 0 0
+/backend/backend/auth/signin 11 25086 0 0
+/backend/system/settings/update/october/cms/maintenance_settings 1 5704 0 0
+/backend/rainlab/blog/posts 13 69620 0 0
+/backend/system/settings/update/anandpatel/wysiwygeditors/settings 8 34039 0 0
+/backend/system/eventlogs 1 8033 0 0
+/index.php 6 12598 2 0
+/backend/rainlab/blog/posts/create 12 36552 0 0
+/backend/backend/media 3 16070 0 0
+/backend/cms/themes 1 5724 0 0
+/works 1 3289 0 0
+/shope 2 6573 0 0
+/backend/backend 10 116680 0 0
+/backend/system/settings/update/october/backend/editor 1 9016 0 0
+/backend/rainlab/pages 4 20580 0 0
+/blog/post/new-post-2 4 13418 0 0
+/blog/category/uncategorized 12 43781 0 0
+/contact-us 2 6582 0 0
+/backend/system/settings 10 48207 0 0
+/backend/rainlab/builder 1 4568 0 0
+/backend/system/updates 4 22011 0 0
+/backend/rainlab/blog/categories 2 9310 0 0
+/backend/rainlab/blog/posts/update/3 6 26048 0 0
+END_SIDER

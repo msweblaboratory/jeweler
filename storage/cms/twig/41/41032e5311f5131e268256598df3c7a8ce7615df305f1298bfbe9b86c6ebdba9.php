@@ -51,13 +51,13 @@ class __TwigTemplate_ad662748af024ed73c8f2c53679d155020cd7c8b7a459fe630a6e8054a6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 7), "meta_title", [], "any", false, false, false, 7), "html", null, true);
         echo "\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <link href=\"https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext\" rel=\"stylesheet\">
     <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.5.0/css/all.css\">
-    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\" integrity=\"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk\" crossorigin=\"anonymous\">
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>
     <link href=\"";
-        // line 11
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/template.css");
+        // line 12
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css");
         echo "\" rel=\"stylesheet\">
-
     ";
         // line 13
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
@@ -79,7 +79,7 @@ class __TwigTemplate_ad662748af024ed73c8f2c53679d155020cd7c8b7a459fe630a6e8054a6
 
     public function getDebugInfo()
     {
-        return array (  66 => 14,  63 => 13,  58 => 11,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
+        return array (  66 => 14,  63 => 13,  59 => 12,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -92,10 +92,10 @@ class __TwigTemplate_ad662748af024ed73c8f2c53679d155020cd7c8b7a459fe630a6e8054a6
     <meta name=\"description\" content=\"{{ this.page.meta_description }}\">
     <meta name=\"title\" content=\"{{ this.page.meta_title }}\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <link href=\"https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext\" rel=\"stylesheet\">
     <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.5.0/css/all.css\">
-    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\" integrity=\"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk\" crossorigin=\"anonymous\">
-    <link href=\"{{ 'assets/css/template.css'|theme }}\" rel=\"stylesheet\">
-
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>
+    <link href=\"{{ 'assets/css/style.css'|theme }}\" rel=\"stylesheet\">
     {% styles %}
 </head>
 <body>", "/var/www/admin/data/www/msweblaboratory.freedomain.thehost/themes/jeweler/partials/Site/head.htm", "");
