@@ -305,11 +305,11 @@ hr {
     padding: 80px 0;
 }
 
-.section--devices {
+.section--making {
     margin-bottom: 40px;
     padding-bottom: 0;
 
-    background: url("../images/devices-bg.jpg") center no-repeat;
+    background: url("../images/making-bg.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -364,8 +364,6 @@ hr {
     font-size: 15px;
     color: #999;
 }
-
-
 
 /* Card */
 .card {
@@ -529,28 +527,20 @@ hr {
     color: #999;
 }
 
-/* Devices */
+/* Making */
 
-.devices {
+.making {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
     position: relative;
 }
 
-.devices__item {
+.making__item {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-.devices__item--iphone {
-    position: absolute;
-    bottom: -80px;
-    right: 0;
-    z-index: 1;
-}
-
 
 /* We do */
 .wedo {
@@ -1436,7 +1426,7 @@ hr {
         padding: 40px 0;
     }
 
-    .section--devices {
+    .section--making {
         padding-bottom: 0;
     }
 
@@ -1593,15 +1583,9 @@ hr {
     }
 
 
-    /* Devices */
-    .devices {
+    /* Making */
+    .making {
         max-width: 320px;
-    }
-
-    .devices__item--iphone {
-        width: 180px;
-        bottom: -50px;
-        right: -80px;
     }
 
 
