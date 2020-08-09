@@ -1,21 +1,25 @@
-[viewBag]
-==
-{##}
- <!-- Devices -->
-    <section class="section  section--making">
-        <div class="container">
+[viewBag] == {##}
+<!-- Devices -->
+<section class="section section--making">
+  <div class="container">
+    <div class="section__header">
+      <h3 class="section__suptitle">Изготовление</h3>
+      <h2 class="section__title">Как мы изготавливаем изделия</h2>
+      <div class="section__text">
+        <p>
+          Все наши украшения изготавливаются вручную, способом моделирования по
+          воску или через 3D моделирование, что обеспечивает высокое качество
+          исполнения и неповторимость каждого изделия.
+        </p>
+      </div>
+    </div>
 
-            <div class="section__header">
-                <h3 class="section__suptitle">Изготовление</h3>
-                <h2 class="section__title">Как мы изготавливаем изделия</h2>
-                <div class="section__text">
-                    <p>Все наши украшения изготавливаются вручную, способом моделирования по воску или через 3D моделирование, что обеспечивает высокое качество исполнения и неповторимость каждого изделия.</p>
-                </div>
-            </div>
-
-            <div class="making">
-                <img class="making__item" src="{{ 'assets/images/making-img.png' | theme }}" alt="">
-            </div>
-
-        </div>
-    </section>
+    <div class="making">
+      <img
+        class="making__item"
+        src="{{ 'assets/images/making-img.png' | theme }}"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
