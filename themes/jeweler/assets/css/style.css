@@ -408,7 +408,7 @@ hr {
 
 /* Statistics */
 .statistics {
-  background-color: #95e1d3;
+  background-color: #2b2d2c;
 }
 
 .stat {
@@ -419,13 +419,13 @@ hr {
 .stat__item {
   flex: 1 1 0;
   padding: 70px 25px;
-  border-left: 1px solid #b5eae0;
+  border-left: 1px solid #fce38a;
   text-align: center;
   color: #fff;
 }
 
 .stat__item:last-child {
-  border-right: 1px solid #b5eae0;
+  border-right: 1px solid #fce38a;
 }
 
 .stat__count {
