@@ -511,20 +511,20 @@ hr {
   height: auto;
 }
 
-/* We do */
+/* Service */
 
-.wedo {
+.service {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
 
-.wedo__item {
+.service__item {
   width: 50%;
   padding: 0 15px;
 }
 
-.wedo__img {
+.service__img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -1394,13 +1394,13 @@ hr {
     left: 0;
   }
 
-  /* Wedo */
+  /* Service */
 
-  .wedo__img {
+  .service__img {
     display: none;
   }
 
-  .wedo__item {
+  .service__item {
     width: 100%;
   }
 
