@@ -27,6 +27,11 @@ hr {
   background-color: #e5e5e5;
 }
 
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+
 /* Page */
 
 .page {
@@ -40,6 +45,38 @@ hr {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+/* Start */
+.start_logo{
+  width: 379px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.start__title{
+  color: #ef5350;
+  font-size: 58px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto;
+    background-color: #fff;
+  }
+}
+
+.start__content {
+  color: #fce38a;
+  text-align: center;
+  border: 3px solid #ef5350;
+  background: #121212;
+  margin-bottom: 50px;
 }
 
 /* Intro */
@@ -91,10 +128,9 @@ hr {
 .intro__content {
   color: #fce38a;
   text-align: center;
-  position: relative;
-  top: 16%;
   border: 3px solid #ef5350;
   background: #121212;
+  margin-bottom: 50px;
 }
 
 /* Header */
@@ -282,6 +318,13 @@ hr {
 }
 
 /* Section */
+
+.section-start{
+  background: url("../images/start/start.gif") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 
 .section {
   padding: 80px 0;
@@ -1173,18 +1216,20 @@ hr {
 }
 
 @media (max-width: 1230px) {
-  /* Intro */
 
+   /* Start */
+  .start__title{
+    font-size: 52px;
+  }
+
+  
+  /* Intro */
   .intro__suptitle {
     font-size: 68px;
   }
 
   .intro__title {
     font-size: 52px;
-  }
-
-  .intro__content {
-    top: 20%;
   }
 
   /* Reviews */
@@ -1195,6 +1240,12 @@ hr {
 }
 
 @media (max-width: 990px) {
+
+    /* Start */
+    .start__title{
+      font-size: 46px;
+    }
+
   /* Intro */
 
   .intro__suptitle {
@@ -1205,9 +1256,6 @@ hr {
     font-size: 46px;
   }
 
-  .intro__content {
-    top: 23%;
-  }
 
   /* Stat */
 
@@ -1292,6 +1340,12 @@ hr {
 }
 
 @media (max-width: 770px) {
+
+  /* Start */
+  .start__title{
+    font-size: 36px;
+  }
+
   /* Intro */
 
   .intro {
@@ -1306,9 +1360,6 @@ hr {
     font-size: 36px;
   }
 
-  .intro__content {
-    top: 15%;
-  }
 
   /* Header */
 
@@ -1459,6 +1510,24 @@ hr {
 }
 
 @media (max-width: 575px) {
+
+  /* Start */
+  .start_logo{
+    width: 265px;
+  }
+
+  .start__title{
+    font-size: 18px;
+  }
+
+  .start__content{
+    margin-bottom: 5%;
+  }
+
+  .start__title:after{
+    margin: 15px auto;
+  }
+
   /* Intro */
 
   .intro__suptitle {
@@ -1467,6 +1536,14 @@ hr {
 
   .intro__title {
     font-size: 18px;
+  }
+
+  .intro__title:after{
+    margin: 15px auto;
+  }
+
+  .intro__content{
+    margin-bottom: 20px;
   }
 
   /* Section */
@@ -1483,9 +1560,6 @@ hr {
     font-size: 24px;
   }
 
-  .intro__content {
-    top: 20%;
-  }
 
   .section__title:after {
     margin: 20px auto;
