@@ -2,14 +2,5 @@ title = "Blog categories"
 url = "/blog-categories/:slug"
 layout = "main"
 is_hidden = 0
-
-[blogPosts]
-pageNumber = "{{ :page }}"
-categoryFilter = "{{ :slug }}"
-postsPerPage = 10
-noPostsMessage = "Записей не найдено"
-sortOrder = "published_at desc"
-categoryPage = "blog"
-postPage = "post"
 ==
-{% component 'blogPosts' %}
+{% partial 'Home/categories_blog' %}
