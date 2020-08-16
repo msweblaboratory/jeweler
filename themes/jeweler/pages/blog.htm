@@ -1,9 +1,14 @@
-
-
 title = "Blog"
 url = "/blog"
 layout = "main"
 is_hidden = 0
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog_categories"
 ==
 {##}
+<br><br><br><br><br><br><br>
+{% component 'blogCategories' %}
     {% partial 'Home/blog_post' %}

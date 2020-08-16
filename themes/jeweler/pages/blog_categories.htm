@@ -1,9 +1,9 @@
-title = "Blog category"
-url = "/blog-catecory/:slug"
+title = "Blog categories"
+url = "/blog-categories/:slug"
 layout = "main"
 is_hidden = 0
 
-[blogPosts blogCategory]
+[blogPosts]
 pageNumber = "{{ :page }}"
 categoryFilter = "{{ :slug }}"
 postsPerPage = 10
@@ -12,5 +12,4 @@ sortOrder = "published_at desc"
 categoryPage = "blog"
 postPage = "post"
 ==
-{##}
-{% component 'blogCategory' %}
+{% component 'blogPosts' %}
