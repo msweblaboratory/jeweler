@@ -33,23 +33,23 @@ class __TwigTemplate_0a0ab1ecd42eb8efe2c54396dbc28d1f2f2ac823428009e2663584b9246
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
+        // line 2
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/head"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 2
-        echo "
-";
         // line 3
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 4
         echo "
 ";
+        // line 4
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 5
+        echo "
+";
+        // line 6
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/scripts"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 6
+        // line 7
         echo "
     </body>
 </html>";
@@ -67,12 +67,13 @@ class __TwigTemplate_0a0ab1ecd42eb8efe2c54396dbc28d1f2f2ac823428009e2663584b9246
 
     public function getDebugInfo()
     {
-        return array (  53 => 6,  49 => 5,  46 => 4,  44 => 3,  41 => 2,  37 => 1,);
+        return array (  53 => 7,  49 => 6,  46 => 5,  44 => 4,  41 => 3,  37 => 2,);
     }
 
     public function getSourceContext()
     {
-        return new Source("{% partial 'Site/head' %}
+        return new Source("{##}
+{% partial 'Site/head' %}
 
 {%page%}
 

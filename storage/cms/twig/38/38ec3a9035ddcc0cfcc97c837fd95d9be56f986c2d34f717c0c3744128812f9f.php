@@ -33,23 +33,24 @@ class __TwigTemplate_cb07cb8b0d2bfeda6b0e7e1d86b1f6eaf187e3f9c5d87d14fe29c6eedbb
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
-        echo "<div class=\"container-fluid\">
-  <div class=\"row\">
-    <div class=\"col-lg-12\">
-      <div class=\"video-block\">
-      <img class=\"img-fluid\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"";
-        // line 5
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("/assets/images/start-logo.png");
-        echo "\" alt=\"Логотип\" width=\"379\" height=\"391\" />
-        <p style=\"font-size: 24px; color: #e6b945; text-align: center; padding: 0; margin: 0;\">Ювелирная мастерская Киеве</p>
-        <div class = \"text-center mt-5\">
-        <a href=\"/home\" class=\"btn btn-warning btn-lg \">ПЕРЕЙТИ НА САЙТ</a>
+        // line 2
+        echo "
+
+<div class=\"section-start\">
+        <div class=\"container\">
+            <div class=\"section__header\">
+            <div class=\"start_logo\"><img class=\"img-responsive\" src=\"";
+        // line 7
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("/assets/images/start/main-logo.png");
+        echo "\" alt=\"Логотип\"  /></div>
+            <h1 class=\"start__title\">Ювелирная мастерская в Киеве</h1>
+            <div class=\"start__content\">
+            <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
         </div>
-      </div>
-    </div>
-  </div>
-</div>";
+            <a class=\"btn\" href=\"/home\">Перейти на сайт</a>
+            </div>
+        </div>
+    </div>";
     }
 
     public function getTemplateName()
@@ -64,23 +65,25 @@ class __TwigTemplate_cb07cb8b0d2bfeda6b0e7e1d86b1f6eaf187e3f9c5d87d14fe29c6eedbb
 
     public function getDebugInfo()
     {
-        return array (  43 => 5,  37 => 1,);
+        return array (  44 => 7,  37 => 2,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"container-fluid\">
-  <div class=\"row\">
-    <div class=\"col-lg-12\">
-      <div class=\"video-block\">
-      <img class=\"img-fluid\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"{{ '/assets/images/start-logo.png' |theme }}\" alt=\"Логотип\" width=\"379\" height=\"391\" />
-        <p style=\"font-size: 24px; color: #e6b945; text-align: center; padding: 0; margin: 0;\">Ювелирная мастерская Киеве</p>
-        <div class = \"text-center mt-5\">
-        <a href=\"/home\" class=\"btn btn-warning btn-lg \">ПЕРЕЙТИ НА САЙТ</a>
+        return new Source("{##}
+
+
+<div class=\"section-start\">
+        <div class=\"container\">
+            <div class=\"section__header\">
+            <div class=\"start_logo\"><img class=\"img-responsive\" src=\"{{ '/assets/images/start/main-logo.png' |theme }}\" alt=\"Логотип\"  /></div>
+            <h1 class=\"start__title\">Ювелирная мастерская в Киеве</h1>
+            <div class=\"start__content\">
+            <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
         </div>
-      </div>
-    </div>
-  </div>
-</div>", "/var/www/admin/data/www/msweblaboratory.freedomain.thehost/themes/jeweler/pages/start.htm", "");
+            <a class=\"btn\" href=\"/home\">Перейти на сайт</a>
+            </div>
+        </div>
+    </div>", "/var/www/admin/data/www/msweblaboratory.freedomain.thehost/themes/jeweler/pages/start.htm", "");
     }
 }

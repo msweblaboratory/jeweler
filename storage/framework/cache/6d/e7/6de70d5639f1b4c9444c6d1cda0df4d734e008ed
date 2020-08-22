@@ -1,5 +1,6 @@
-1596480285a:1:{s:13:"Site/head.htm";a:6:{s:8:"fileName";s:13:"Site/head.htm";s:7:"content";s:782:"[viewBag]
+1598100920a:1:{s:13:"Site/head.htm";a:6:{s:8:"fileName";s:13:"Site/head.htm";s:7:"content";s:900:"[viewBag]
 ==
+{##}
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,10 +12,12 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
     {% styles %}
 </head>
-<body>";s:5:"mtime";i:1596459434;s:6:"markup";s:769:"<!DOCTYPE html>
+<body>";s:5:"mtime";i:1598017244;s:6:"markup";s:885:"{##}
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -25,6 +28,7 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
     {% styles %}
 </head>

@@ -1,0 +1,31 @@
+1598100127a:1:{s:14:"Home/intro.htm";a:6:{s:8:"fileName";s:14:"Home/intro.htm";s:7:"content";s:1034:"[viewBag]
+==
+{##}
+<!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle animate__animated animate__bounce animate__delay-1s">Jewelerlab</h2>
+                <h1 class="intro__title  animate__animated animate__fadeInRight animate__delay-2s">Ювелирная мастерская<br /> в Киеве</h1>
+
+    <div class="intro__content animate__animated animate__fadeInLeft animate__delay-2s"> 
+            <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
+            </div>
+                <a class="btn animate__animated animate__fadeIn animate__delay-2s" href="#">Заказать изготовление ювелирного украшения</a>
+            </div>
+        </div>
+    </div><!-- /.intro -->";s:5:"mtime";i:1598017244;s:6:"markup";s:1021:"{##}
+<!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle animate__animated animate__bounce animate__delay-1s">Jewelerlab</h2>
+                <h1 class="intro__title  animate__animated animate__fadeInRight animate__delay-2s">Ювелирная мастерская<br /> в Киеве</h1>
+
+    <div class="intro__content animate__animated animate__fadeInLeft animate__delay-2s"> 
+            <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
+            </div>
+                <a class="btn animate__animated animate__fadeIn animate__delay-2s" href="#">Заказать изготовление ювелирного украшения</a>
+            </div>
+        </div>
+    </div><!-- /.intro -->";s:4:"code";N;s:7:"viewBag";a:0:{}}}

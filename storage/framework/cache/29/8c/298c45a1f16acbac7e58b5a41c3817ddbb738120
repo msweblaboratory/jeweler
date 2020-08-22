@@ -1,0 +1,53 @@
+1598100127a:1:{s:15:"Home/making.htm";a:6:{s:8:"fileName";s:15:"Home/making.htm";s:7:"content";s:930:"[viewBag] 
+== 
+{##}
+<!-- Devices -->
+<section class="section section--making">
+  <div class="container">
+    <div class="section__header">
+      <h3 class="section__suptitle">ИЗГОТОВЛЕНИЕ</h3>
+      <h2 class="section__title">Как мы изготавливаем изделия</h2>
+      <div class="section__text">
+        <p>
+          Все наши украшения изготавливаются вручную, способом моделирования по
+          воску или через 3D моделирование, что обеспечивает высокое качество
+          исполнения и неповторимость каждого изделия.
+        </p>
+      </div>
+    </div>
+
+    <div class="making">
+      <img
+        class="making__item"
+        src="{{ 'assets/images/making-img.png' | theme }}"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
+
+";s:5:"mtime";i:1598017244;s:6:"markup";s:913:"{##}
+<!-- Devices -->
+<section class="section section--making">
+  <div class="container">
+    <div class="section__header">
+      <h3 class="section__suptitle">ИЗГОТОВЛЕНИЕ</h3>
+      <h2 class="section__title">Как мы изготавливаем изделия</h2>
+      <div class="section__text">
+        <p>
+          Все наши украшения изготавливаются вручную, способом моделирования по
+          воску или через 3D моделирование, что обеспечивает высокое качество
+          исполнения и неповторимость каждого изделия.
+        </p>
+      </div>
+    </div>
+
+    <div class="making">
+      <img
+        class="making__item"
+        src="{{ 'assets/images/making-img.png' | theme }}"
+        alt=""
+      />
+    </div>
+  </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

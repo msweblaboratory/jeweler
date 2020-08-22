@@ -32,6 +32,12 @@ hr {
   height: auto;
 }
 
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Page */
 
 .page {
@@ -158,6 +164,7 @@ hr {
   &.active {
     background-color: #ef5350;
     padding: 10px 0;
+    position: fixed;
   }
 }
 
@@ -343,7 +350,7 @@ hr {
 }
 
 .section--clients {
-  background: #f5f5f5 url("../images/clients-bg.jpg") center no-repeat;
+  background: #f5f5f5 url("../images/clients-bg.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -945,6 +952,10 @@ hr {
     margin-left:5px;
     color: #ef5350; 
   }
+}
+
+.btn__all-posts{
+  margin: 30px auto;
 }
 
 /* Map */

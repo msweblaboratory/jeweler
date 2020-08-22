@@ -1,33 +1,33 @@
-1596480285a:1:{s:9:"start.htm";a:8:{s:8:"fileName";s:9:"start.htm";s:7:"content";s:695:"title = "Jeweler Start"
+1598100920a:1:{s:9:"start.htm";a:8:{s:8:"fileName";s:9:"start.htm";s:7:"content";s:854:"title = "Jeweler Start"
 url = "/"
 layout = "empty"
 ==
+{##}
 
- <div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="video-block">
-      <img class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;" src="{{ '/assets/images/start-logo.png' |theme }}" alt="Логотип" width="379" height="391" />
-        <p style="font-size: 24px; color: #e6b945; text-align: center; padding: 0; margin: 0;">Ювелирная мастерская Киеве</p>
-        <div class = "text-center mt-5">
-        <a href="/home" class="btn btn-warning btn-lg ">ПЕРЕЙТИ НА САЙТ</a>
+
+<div class="section-start">
+        <div class="container">
+            <div class="section__header">
+            <div class="start_logo"><img class="img-responsive" src="{{ '/assets/images/start/main-logo.png' |theme }}" alt="Логотип"  /></div>
+            <h1 class="start__title">Ювелирная мастерская в Киеве</h1>
+            <div class="start__content">
+            <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-";s:5:"mtime";i:1596378533;s:6:"markup";s:636:"<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="video-block">
-      <img class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;" src="{{ '/assets/images/start-logo.png' |theme }}" alt="Логотип" width="379" height="391" />
-        <p style="font-size: 24px; color: #e6b945; text-align: center; padding: 0; margin: 0;">Ювелирная мастерская Киеве</p>
-        <div class = "text-center mt-5">
-        <a href="/home" class="btn btn-warning btn-lg ">ПЕРЕЙТИ НА САЙТ</a>
+            <a class="btn" href="/home">Перейти на сайт</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>";s:4:"code";N;s:5:"title";s:13:"Jeweler Start";s:3:"url";s:1:"/";s:6:"layout";s:5:"empty";}}
+    </div>";s:5:"mtime";i:1598017244;s:6:"markup";s:800:"{##}
+
+
+<div class="section-start">
+        <div class="container">
+            <div class="section__header">
+            <div class="start_logo"><img class="img-responsive" src="{{ '/assets/images/start/main-logo.png' |theme }}" alt="Логотип"  /></div>
+            <h1 class="start__title">Ювелирная мастерская в Киеве</h1>
+            <div class="start__content">
+            <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
+        </div>
+            <a class="btn" href="/home">Перейти на сайт</a>
+            </div>
+        </div>
+    </div>";s:4:"code";N;s:5:"title";s:13:"Jeweler Start";s:3:"url";s:1:"/";s:6:"layout";s:5:"empty";}}

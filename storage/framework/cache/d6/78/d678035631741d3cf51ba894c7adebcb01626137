@@ -1,0 +1,56 @@
+1598100127a:1:{s:16:"Home/reviews.htm";a:6:{s:8:"fileName";s:16:"Home/reviews.htm";s:7:"content";s:1372:"[viewBag]
+==
+{##}
+ <!-- Reviews 1 -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="reviews">
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="{{ 'assets/images/avatar.png' | theme }}" alt="">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                            <div class="reviews__author">Jon Doe</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="{{ 'assets/images/avatar.png' | theme }}" alt="">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                            <div class="reviews__author">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+";s:5:"mtime";i:1598017244;s:6:"markup";s:1358:"{##}
+ <!-- Reviews 1 -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="reviews">
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="{{ 'assets/images/avatar.png' | theme }}" alt="">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                            <div class="reviews__author">Jon Doe</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="{{ 'assets/images/avatar.png' | theme }}" alt="">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                            <div class="reviews__author">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

@@ -33,58 +33,38 @@ class __TwigTemplate_3420bdee1f7f7d16fcd370273820495fa06c2fa04f96c0c6a788cbca585
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
+        // line 2
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/head"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 2
+        // line 3
         echo "
-
-
-
-<header class=\"header\" id=\"header\">
-    <div class=\"container\">
-        <div class=\"header__inner\">
-            <div class=\"header__logo\" data-scroll=\"#intro\">Jewelerlab</div>
-
-            <nav class=\"nav\" id=\"nav\">
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#about\">О нас</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#services\">Предлагаем</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#blog\">Блог</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#works\">Работы</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#footer\">Контакты</a>
-                <a class=\"nav__link\" href=\"#\">
-                    <i class=\"fas fa-shopping-cart\"></i>
-                </a>
-                <a class=\"nav__link\" href=\"#\">
-                    <i class=\"fas fa-search\"></i>
-                </a>
-            </nav>
-
-            <button class=\"nav-toggle\" id=\"nav_toggle\" type=\"button\">
-                <span class=\"nav-toggle__item\">Menu</span>
-            </button>
-        </div>
-    </div>
-</header>
-
-
-
 ";
-        // line 34
+        // line 4
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/header"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 5
+        echo "
+";
+        // line 6
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 35
+        // line 7
         echo "
-
-
 ";
-        // line 38
+        // line 8
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/footer"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 9
+        echo "
+";
+        // line 10
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/scripts"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 39
+        // line 11
         echo "
-
     </body>
 </html>";
     }
@@ -101,50 +81,21 @@ class __TwigTemplate_3420bdee1f7f7d16fcd370273820495fa06c2fa04f96c0c6a788cbca585
 
     public function getDebugInfo()
     {
-        return array (  86 => 39,  82 => 38,  77 => 35,  75 => 34,  41 => 2,  37 => 1,);
+        return array (  67 => 11,  63 => 10,  60 => 9,  56 => 8,  53 => 7,  51 => 6,  48 => 5,  44 => 4,  41 => 3,  37 => 2,);
     }
 
     public function getSourceContext()
     {
-        return new Source("{% partial 'Site/head' %}
+        return new Source("{##}
+{% partial 'Site/head' %}
 
-
-
-
-<header class=\"header\" id=\"header\">
-    <div class=\"container\">
-        <div class=\"header__inner\">
-            <div class=\"header__logo\" data-scroll=\"#intro\">Jewelerlab</div>
-
-            <nav class=\"nav\" id=\"nav\">
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#about\">О нас</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#services\">Предлагаем</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#blog\">Блог</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#works\">Работы</a>
-                <a class=\"nav__link\" href=\"#\" data-scroll=\"#footer\">Контакты</a>
-                <a class=\"nav__link\" href=\"#\">
-                    <i class=\"fas fa-shopping-cart\"></i>
-                </a>
-                <a class=\"nav__link\" href=\"#\">
-                    <i class=\"fas fa-search\"></i>
-                </a>
-            </nav>
-
-            <button class=\"nav-toggle\" id=\"nav_toggle\" type=\"button\">
-                <span class=\"nav-toggle__item\">Menu</span>
-            </button>
-        </div>
-    </div>
-</header>
-
-
+{% partial 'Site/header' %}
 
 {%page%}
 
-
+{% partial 'Site/footer' %}
 
 {% partial 'Site/scripts' %}
-
 
     </body>
 </html>", "/var/www/admin/data/www/msweblaboratory.freedomain.thehost/themes/jeweler/layouts/main.htm", "");
