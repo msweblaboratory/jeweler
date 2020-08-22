@@ -54,15 +54,9 @@ hr {
 }
 
 /* Start */
-.start_logo{
-  width: 379px;
-  height: auto;
-  margin: 0 auto;
-}
-
 .start__title{
   color: #ef5350;
-  font-size: 58px;
+  font-size: 52px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
@@ -72,7 +66,7 @@ hr {
     display: block;
     width: 60px;
     height: 3px;
-    margin: 60px auto;
+    margin: 30px auto;
     background-color: #fff;
   }
 }
@@ -329,12 +323,13 @@ hr {
 .section-start{
   background: url("../images/start/start.gif") center no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 
 .section {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .section--making {
@@ -1202,7 +1197,7 @@ hr {
 
    /* Start */
   .start__title{
-    font-size: 52px;
+    font-size: 48px;
   }
 
   
@@ -1479,10 +1474,6 @@ hr {
 @media (max-width: 575px) {
 
   /* Start */
-  .start_logo{
-    width: 265px;
-  }
-
   .start__title{
     font-size: 18px;
   }
