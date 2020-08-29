@@ -1,0 +1,24 @@
+1598695662a:1:{s:8:"blog.htm";a:10:{s:8:"fileName";s:8:"blog.htm";s:7:"content";s:261:"title = "Blog"
+url = "/blog"
+layout = "main"
+is_hidden = 0
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog_categories"
+==
+{##}
+
+<div class="container">
+    {% component 'blogCategories' %}
+</div>
+
+{% partial 'Blog/blog_post' %}
+    ";s:5:"mtime";i:1598430683;s:6:"markup";s:105:"{##}
+
+<div class="container">
+    {% component 'blogCategories' %}
+</div>
+
+{% partial 'Blog/blog_post' %}";s:4:"code";N;s:5:"title";s:4:"Blog";s:3:"url";s:5:"/blog";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:14:"blogCategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"0";s:12:"categoryPage";s:15:"blog_categories";}}}

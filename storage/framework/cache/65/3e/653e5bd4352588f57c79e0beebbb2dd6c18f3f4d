@@ -1,6 +1,0 @@
-1598100920a:1:{s:19:"blog_categories.htm";a:9:{s:8:"fileName";s:19:"blog_categories.htm";s:7:"content";s:126:"title = "Blog categories"
-url = "/blog-categories/:slug"
-layout = "main"
-is_hidden = 0
-==
-{% partial 'Home/categories_blog' %}";s:5:"mtime";i:1598017244;s:6:"markup";s:36:"{% partial 'Home/categories_blog' %}";s:4:"code";N;s:5:"title";s:15:"Blog categories";s:3:"url";s:22:"/blog-categories/:slug";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";}}

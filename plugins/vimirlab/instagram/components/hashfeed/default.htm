@@ -1,0 +1,36 @@
+{% set check_error_message2 = __SELF__.check_error_messages %}
+{% set check_error_message1 = __SELF__.check_error_message %}
+	<p>{{ error_message }}</p>
+	<p>{{ check_error_message1 }}</p>
+	<p>{{ check_error_message2 }}</p>
+{% if slider == 'add' %}
+	<div class="owl-carousel owl-theme insta-slider owl-loaded owl-drag">
+	{% for row in posts.data %}
+	{{ row.error_message }}
+		{% if row.type == 'image' %}
+			<div class="item">
+				<a href="{{ row.link }}" target="_blank">
+					<img src="{{ row.images.low_resolution.url }}">
+				</a>
+			</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+{% elseif slider == 'no' %}
+	{% for row in posts.data %}
+		{% if row.type == 'image' %}
+			<div class="insta-img">
+				<a href="{{ row.link }}" target="_blank">
+					<img src="{{ row.images.low_resolution.url }}" class="img-responsive">
+				</a>
+			</div>
+		{% elseif row.type == 'video' %}	
+			<a href="{{ row.link }}" target="_blank">	
+				<video controls>
+					<source src="{{ row.videos.low_resolution.url }}" 
+					type="video/mp4"/>
+				</video>
+			</a>
+		{% endif %}
+	{% endfor %}
+{% endif %}

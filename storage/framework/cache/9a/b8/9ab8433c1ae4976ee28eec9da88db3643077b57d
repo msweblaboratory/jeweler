@@ -1,0 +1,11 @@
+1598695662a:1:{s:16:"Site/scripts.htm";a:6:{s:8:"fileName";s:16:"Site/scripts.htm";s:7:"content";s:314:"[viewBag]
+==
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="{{ 'assets/js/app.js'| theme }}"></script>
+{% framework extras %}
+{% scripts %}";s:5:"mtime";i:1598017244;s:6:"markup";s:301:"<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="{{ 'assets/js/app.js'| theme }}"></script>
+{% framework extras %}
+{% scripts %}";s:4:"code";N;s:7:"viewBag";a:0:{}}}

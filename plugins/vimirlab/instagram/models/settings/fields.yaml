@@ -1,0 +1,5 @@
+fields:        
+    access_token:
+        label: Access Token
+        span: left
+        required: true

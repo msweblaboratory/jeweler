@@ -1,0 +1,113 @@
+1598688823a:1:{s:19:"Home/advantages.htm";a:6:{s:8:"fileName";s:19:"Home/advantages.htm";s:7:"content";s:3210:"[viewBag]
+==
+{##}
+ <!-- Advantages -->
+    <section class="section" id="advantages">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">ПРЕИМУЩЕСТВА</h3>
+                <h2 class="section__title">Наши преимущества в работе с клиентами</h2>
+            </div>
+
+            <div class="advantages">
+                <div class="advantages__item  advantages__item--border">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/phone.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Бесплатная консультация мастера</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+
+                <div class="advantages__item  advantages__item--border">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/ok.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Выполняем всегда в срок</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+
+                <div class="advantages__item  advantages__item--border">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/tochnayrabota.png' | theme }}" alt="">
+
+                    <div class="advantages__title">100% Точная работа</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+                
+                <div class="advantages__item">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/delivery.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Бесплатная доставка по Украине</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+
+                <div class="advantages__item">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/calendar.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Срок изготовления от 1 до 14 дней</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+    
+                <div class="advantages__item">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/client.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Индивидуальный подход</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>";s:5:"mtime";i:1598017244;s:6:"markup";s:3195:"{##}
+ <!-- Advantages -->
+    <section class="section" id="advantages">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">ПРЕИМУЩЕСТВА</h3>
+                <h2 class="section__title">Наши преимущества в работе с клиентами</h2>
+            </div>
+
+            <div class="advantages">
+                <div class="advantages__item  advantages__item--border">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/phone.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Бесплатная консультация мастера</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+
+                <div class="advantages__item  advantages__item--border">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/ok.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Выполняем всегда в срок</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+
+                <div class="advantages__item  advantages__item--border">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/tochnayrabota.png' | theme }}" alt="">
+
+                    <div class="advantages__title">100% Точная работа</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+                
+                <div class="advantages__item">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/delivery.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Бесплатная доставка по Украине</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+
+                <div class="advantages__item">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/calendar.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Срок изготовления от 1 до 14 дней</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+    
+                <div class="advantages__item">
+                    <img class="advantages__icon" src="{{ 'assets/images/services/client.png' | theme }}" alt="">
+
+                    <div class="advantages__title">Индивидуальный подход</div>
+                    <div class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

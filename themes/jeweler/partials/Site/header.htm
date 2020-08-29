@@ -1,4 +1,5 @@
 [viewBag]
+
 [staticMenu topMenu]
 code = "main-menu"
 ==
@@ -12,12 +13,12 @@ code = "main-menu"
                {% for item in topMenu.menuItems %}
                 <a class="nav__link" href="{{ item.url }}">{{ item.title }}</a>
                 {% endfor %}
-                <a class="nav__link" href="#">
+                <!-- <a class="nav__link" href="#">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
                 <a class="nav__link" href="#">
                     <i class="fas fa-search"></i>
-                </a>
+                </a> -->
             </nav>
             <button class="nav-toggle" id="nav_toggle" type="button">
                 <span class="nav-toggle__item">Menu</span>

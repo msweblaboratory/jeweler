@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+/*video{
+	vertical-align: middle;
+}*/
+#layout-content {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+#layout-content .insta-img,video {
+    display: inline-block;
+    width: 15%;
+    padding: 5px;
+}
+#layout-content .insta-img  img{
+	width: 100%;
+}
+.owl-carousel{
+	position: relative;
+}
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    display: block;
+    color: #cecece;
+    font-size: 50px;
+    line-height: 30px;
+}
+.owl-carousel .owl-nav .owl-prev {
+    left: 5px;
+    position: absolute;
+}
+.owl-carousel .owl-nav .owl-next {
+	right:5px;
+	position: absolute;
+}
+
+@media (max-width:767px){
+	#layout-content .insta-img, video {
+	    display: inline-block;
+	    width: 100%;
+	    padding: 5px;
+	}
+}
+
+@media (max-width:767px) and (orientation: landscape){
+	#layout-content .insta-img, video {
+	    display: inline-block;
+	    width: 40%;
+	    padding: 5px;
+	}
+}
+@media (min-width:768px) and (max-width: 1024px){
+	#layout-content .insta-img, video {
+	    display: inline-block;
+	    width: 48%;
+	    padding: 5px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+	#layout-content .insta-img, video {
+	    display: inline-block;
+	    width: 33%;
+	    padding: 5px;
+	}
+}

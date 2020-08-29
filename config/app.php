@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://msweblaboratory.freedomain.thehost.com.ua/',
+    'url' => 'https://msweblaboratory.freedomain.thehost.com.ua/',
 
     /*
     |--------------------------------------------------------------------------
