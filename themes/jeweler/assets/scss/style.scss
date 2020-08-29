@@ -32,10 +32,26 @@ hr {
   height: auto;
 }
 
+
 .center-img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.video-responsive {
+  height: 0;
+   overflow: hidden;
+   padding-bottom: 56.25%;
+   position: relative;
+    
+   iframe, object, embed{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
 }
 
 /* Page */
@@ -790,7 +806,7 @@ hr {
 
 .works__item {
   position: relative;
-  background: linear-gradient(to bottom, #f38181, #fce38a);
+  background: linear-gradient(to bottom, #666, #202020);
 
   &:hover {
     .works__image {
@@ -835,6 +851,12 @@ hr {
   font-weight: 300;
   font-style: italic;
 }
+
+
+.work__video{
+  margin-top: 30px;
+}
+
 
 /* Blog */
 
