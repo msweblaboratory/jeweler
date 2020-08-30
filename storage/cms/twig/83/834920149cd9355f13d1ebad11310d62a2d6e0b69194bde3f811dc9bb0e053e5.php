@@ -40,7 +40,7 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
 
             <div class=\"footer__inner\">
                 <div class=\"footer__col  footer__col--first\">
-                    <div class=\"footer__logo\">Jewelerlab</div>
+                    <div class=\"footer__logo\">Masterandgold</div>
                     <div class=\"footer__text\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 
                     <div class=\"footer__social\">
@@ -170,7 +170,7 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
             </div><!-- /.footer__inner -->
 
             <div class=\"copyright\">
-                <span>© Jewelerlab 2020</span>
+                <span>© Masterandgold 2020</span>
             </div>
 
         </div><!-- /.container -->
@@ -201,7 +201,7 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
 
             <div class=\"footer__inner\">
                 <div class=\"footer__col  footer__col--first\">
-                    <div class=\"footer__logo\">Jewelerlab</div>
+                    <div class=\"footer__logo\">Masterandgold</div>
                     <div class=\"footer__text\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 
                     <div class=\"footer__social\">
@@ -295,7 +295,7 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
             </div><!-- /.footer__inner -->
 
             <div class=\"copyright\">
-                <span>© Jewelerlab 2020</span>
+                <span>© Masterandgold 2020</span>
             </div>
 
         </div><!-- /.container -->

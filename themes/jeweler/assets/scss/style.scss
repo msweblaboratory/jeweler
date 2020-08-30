@@ -1030,12 +1030,10 @@ hr {
 }
 
 .footer__col--second {
-  width: 29%;
+  width: 51%;
 }
 
-.footer__col--third {
-  width: 22%;
-}
+
 
 .footer__logo {
   margin-bottom: 30px;
@@ -1561,4 +1559,23 @@ hr {
   .subscribe__btn {
     width: 100%;
   }
+}
+
+
+.msform {
+
+  input{
+    padding: 10px;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+textarea{
+  width: 100%;
+  max-width: 700px;
+  max-height: 380px;
+  min-height: 180px;
+  margin: 0 0 10px;
+}
+
 }

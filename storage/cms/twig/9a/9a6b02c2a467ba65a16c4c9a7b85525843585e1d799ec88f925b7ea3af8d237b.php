@@ -38,7 +38,7 @@ class __TwigTemplate_c6b9687e51c52108a6edf2ab61753c29424d1ef105ae52c7abac6cd2dc1
     <div class=\"intro\" id=\"intro\">
         <div class=\"container\">
             <div class=\"intro__inner\">
-                <h2 class=\"intro__suptitle animate__animated animate__bounce animate__delay-1s\">Jewelerlab</h2>
+                <h2 class=\"intro__suptitle animate__animated animate__bounce animate__delay-1s\">Masterandgold</h2>
                 <h1 class=\"intro__title  animate__animated animate__fadeInRight animate__delay-2s\">Ювелирная мастерская<br /> в Киеве</h1>
 
     <div class=\"intro__content animate__animated animate__fadeInLeft animate__delay-2s\"> 
@@ -67,7 +67,7 @@ class __TwigTemplate_c6b9687e51c52108a6edf2ab61753c29424d1ef105ae52c7abac6cd2dc1
     <div class=\"intro\" id=\"intro\">
         <div class=\"container\">
             <div class=\"intro__inner\">
-                <h2 class=\"intro__suptitle animate__animated animate__bounce animate__delay-1s\">Jewelerlab</h2>
+                <h2 class=\"intro__suptitle animate__animated animate__bounce animate__delay-1s\">Masterandgold</h2>
                 <h1 class=\"intro__title  animate__animated animate__fadeInRight animate__delay-2s\">Ювелирная мастерская<br /> в Киеве</h1>
 
     <div class=\"intro__content animate__animated animate__fadeInLeft animate__delay-2s\"> 
