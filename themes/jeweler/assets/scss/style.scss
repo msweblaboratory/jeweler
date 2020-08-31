@@ -405,8 +405,12 @@ hr {
   color: #999;
 }
 
-/* Card */
 
+.section__contact-map{
+  margin-top: 160px;
+}
+
+/* Card */
 .card {
   margin: 80px -15px 0;
   display: flex;
@@ -1562,20 +1566,7 @@ hr {
 }
 
 
-.msform {
 
-  input{
-    padding: 10px;
-    margin: 0 0 10px;
-    width: 100%;
-}
 
-textarea{
-  width: 100%;
-  max-width: 700px;
-  max-height: 380px;
-  min-height: 180px;
-  margin: 0 0 10px;
-}
-
-}
+/* Custom Plugin */
+@import "customform.scss";
