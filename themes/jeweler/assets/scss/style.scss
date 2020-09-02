@@ -408,7 +408,28 @@ hr {
 
 
 .section__contact-map{
-  margin-top: 160px;
+  margin-top: 68px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 80px 0;
+  padding-bottom: 65px;
+  border-top: 2px solid #fce38a;
+}
+
+.contact__col{
+  padding: 40px 15px;
+}
+
+.contact__col--first {
+  width: 55%;
+}
+
+.contact__col--second {
+  width: 40%;
 }
 
 /* Card */
