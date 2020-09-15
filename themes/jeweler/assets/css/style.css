@@ -413,7 +413,7 @@ hr {
 }
 
 .section__text {
-  font-size: 15px;
+  font-size: 16px;
   color: #999;
 }
 
@@ -1571,6 +1571,21 @@ hr {
   }
 }
 
+.product__order--header {
+  margin-top: 110px;
+  margin-bottom: 55px;
+}
+
+.product__order--header .product__order--title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product__order--header .product__order--text {
+  font-size: 16px;
+  color: #999;
+}
+
 /* Custom Plugin */
 .contact__form {
   margin-top: 20px;
@@ -1579,7 +1594,7 @@ hr {
 .contact__form .contact__form-title {
   font-size: 26px;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
 }
 
 .contact__form input {
@@ -1593,5 +1608,29 @@ hr {
   max-height: 600px;
   min-height: 180px;
   margin: 0 0 10px;
+}
+
+.product__order--form {
+  margin: 30px 0;
+  background: #ffffff;
+  padding: 25px;
+  -webkit-box-shadow: 0px 0px 32px -13px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 32px -13px rgba(0, 0, 0, 0.75);
+}
+
+.product__order--form input {
+  padding: 10px;
+  width: 100%;
+}
+
+.product__order--form textarea {
+  width: 100%;
+  max-height: 600px;
+  min-height: 180px;
+  margin: 0 0 10px;
+}
+
+.product__order--form .form-group {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

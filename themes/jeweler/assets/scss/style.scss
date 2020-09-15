@@ -402,7 +402,7 @@ hr {
 }
 
 .section__text {
-  font-size: 15px;
+  font-size: 16px;
   color: #999;
 }
 
@@ -1594,6 +1594,20 @@ hr {
 }
 
 
+
+.product__order--header{
+  margin-top: 110px;
+  margin-bottom: 55px;
+
+  .product__order--title{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .product__order--text{
+    font-size: 16px;
+    color: #999;
+  }
+}
 
 
 /* Custom Plugin */
