@@ -414,6 +414,7 @@ hr {
 .contact-info {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   margin: 65px 0;
   border-top: 2px solid #fce38a;
@@ -427,10 +428,12 @@ hr {
 
 .contact__col--first {
   width: 55%;
+  order: 2;
 }
 
 .contact__col--second {
   width: 40%;
+  order: 1;
 }
 
 /* Card */
@@ -1286,7 +1289,13 @@ hr {
     width: 50%;
   }
 
-  
+  /* Contact */
+  .contact__col--first{
+    width: 100%;
+  }
+  .contact__col--second{
+    width: 100%;
+  }
 }
 
 @media (max-width: 770px) {
@@ -1590,6 +1599,12 @@ hr {
 
   .subscribe__btn {
     width: 100%;
+  }
+
+   /* footer */
+   .footer__logo{
+    font-size: 32px;
+    text-align: center;
   }
 }
 
