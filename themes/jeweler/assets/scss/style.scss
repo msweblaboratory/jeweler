@@ -414,7 +414,6 @@ hr {
 .contact-info {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: space-between;
   margin: 65px 0;
   border-top: 2px solid #fce38a;
@@ -428,12 +427,10 @@ hr {
 
 .contact__col--first {
   width: 55%;
-  order: 2;
 }
 
 .contact__col--second {
   width: 40%;
-  order: 1;
 }
 
 /* Card */
@@ -1289,14 +1286,6 @@ hr {
   .footer__col--second, .footer__col--third {
     width: 50%;
   }
-
-  /* Contact */
-  .contact__col--first{
-    width: 100%;
-  }
-  .contact__col--second{
-    width: 100%;
-  }
 }
 
 @media (max-width: 770px) {
@@ -1520,6 +1509,16 @@ hr {
   .section__title:after {
     margin: 20px auto;
   }
+
+    /* Contact */
+    .contact__col--first{
+      width: 100%;
+      order:2;
+    }
+    .contact__col--second{
+      width: 100%;
+      order:1;
+    }
 
   /* Stat */
 
