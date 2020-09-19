@@ -120,19 +120,13 @@ class __TwigTemplate_1eb4fa8ef04d21b6c181fd1bd6ad71fde14941f2483fa8371f9d2527f1d
         unset($context['__cms_partial_params']);
         // line 27
         echo "
-    <!-- Map -->
-    <section class=\"section  section--map\">
-        <div class=\"container\">
-            <div class=\"map\">
-                <h2 class=\"map__title\">
-                    <div><i class=\"fas fa-map-marker-alt\"></i></div>
-                    <a href=\"https://goo.gl/maps/F8YpeCGqwrG2\" target=\"_blank\">Открыть карту</a>
-                </h2>
-            </div>
-        </div>
-    </section>
-
-</div><!-- /.page -->";
+    ";
+        // line 28
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Home/maps"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 29
+        echo "</div><!-- /.page -->";
     }
 
     public function getTemplateName()
@@ -147,7 +141,7 @@ class __TwigTemplate_1eb4fa8ef04d21b6c181fd1bd6ad71fde14941f2483fa8371f9d2527f1d
 
     public function getDebugInfo()
     {
-        return array (  122 => 27,  118 => 26,  115 => 25,  111 => 24,  108 => 23,  104 => 22,  101 => 21,  97 => 20,  94 => 19,  90 => 18,  87 => 17,  83 => 16,  80 => 15,  76 => 14,  73 => 13,  69 => 12,  66 => 11,  62 => 10,  59 => 9,  55 => 8,  52 => 7,  48 => 6,  41 => 4,  37 => 2,);
+        return array (  129 => 29,  125 => 28,  122 => 27,  118 => 26,  115 => 25,  111 => 24,  108 => 23,  104 => 22,  101 => 21,  97 => 20,  94 => 19,  90 => 18,  87 => 17,  83 => 16,  80 => 15,  76 => 14,  73 => 13,  69 => 12,  66 => 11,  62 => 10,  59 => 9,  55 => 8,  52 => 7,  48 => 6,  41 => 4,  37 => 2,);
     }
 
     public function getSourceContext()
@@ -179,18 +173,7 @@ class __TwigTemplate_1eb4fa8ef04d21b6c181fd1bd6ad71fde14941f2483fa8371f9d2527f1d
 
     {% partial 'Blog/last_post' %}
 
-    <!-- Map -->
-    <section class=\"section  section--map\">
-        <div class=\"container\">
-            <div class=\"map\">
-                <h2 class=\"map__title\">
-                    <div><i class=\"fas fa-map-marker-alt\"></i></div>
-                    <a href=\"https://goo.gl/maps/F8YpeCGqwrG2\" target=\"_blank\">Открыть карту</a>
-                </h2>
-            </div>
-        </div>
-    </section>
-
+    {% partial 'Home/maps' %}
 </div><!-- /.page -->", "/home/msweblab/public_html/themes/jeweler/pages/home.htm", "");
     }
 }

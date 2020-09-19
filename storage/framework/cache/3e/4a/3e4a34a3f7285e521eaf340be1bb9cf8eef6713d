@@ -1,0 +1,88 @@
+1600458600a:1:{s:17:"product-order.htm";a:10:{s:8:"fileName";s:17:"product-order.htm";s:7:"content";s:2777:"title = "Product order"
+url = "/product-order"
+layout = "main"
+is_hidden = 0
+
+[uploadForm]
+messages_success = "Ваша форма была успешно отправлена!"
+messages_errors = "В вашей заявке содержатся ошибки."
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+emails_date_format = "Y-m-d"
+uploader_enable = 1
+uploader_multi = 1
+placeholderText = "Нажмите или перетащите файлы для загрузки"
+removeText = "Вы уверены?"
+maxSize = 5
+fileTypes[] = "jpg"
+fileTypes[] = "jpeg"
+fileTypes[] = "bmp"
+fileTypes[] = "png"
+fileTypes[] = "webp"
+fileTypes[] = "gif"
+fileTypes[] = "svg"
+fileTypes[] = "js"
+fileTypes[] = "map"
+fileTypes[] = "ico"
+fileTypes[] = "css"
+fileTypes[] = "less"
+fileTypes[] = "scss"
+fileTypes[] = "ics"
+fileTypes[] = "odt"
+fileTypes[] = "doc"
+fileTypes[] = "docx"
+fileTypes[] = "ppt"
+fileTypes[] = "pptx"
+fileTypes[] = "pdf"
+fileTypes[] = "swf"
+fileTypes[] = "txt"
+fileTypes[] = "xml"
+fileTypes[] = "ods"
+fileTypes[] = "xls"
+fileTypes[] = "xlsx"
+fileTypes[] = "eot"
+fileTypes[] = "woff"
+fileTypes[] = "woff2"
+fileTypes[] = "ttf"
+fileTypes[] = "flv"
+fileTypes[] = "wmv"
+fileTypes[] = "mp3"
+fileTypes[] = "ogg"
+fileTypes[] = "wav"
+fileTypes[] = "avi"
+fileTypes[] = "mov"
+fileTypes[] = "mp4"
+fileTypes[] = "mpeg"
+fileTypes[] = "webm"
+fileTypes[] = "mkv"
+fileTypes[] = "rar"
+fileTypes[] = "xml"
+fileTypes[] = "zip"
+==
+{##}
+<div class="container">
+<div class="product__order--header">
+    <h1 class="section__title product__order--title">Заказать изготовление ювелирного изделия</h1>
+      <p class="product__order--text">Наша компания предлагает изготовление ювелирных украшений любой сложности, любого вида. Кольца, браслеты, серьги, броши из чистого золота, а также с инкрустированием драгоценными и полудрагоценными камнями. Мы работаем с часами, значками, медалями и другими предметами, в изготовлении которых нужна профессиональная рука ювелира. За более чем 15 лет выполнили тысячи заказов, и каждый раз клиенты остались довольны результатом. Предлагаем выгодные и удобные условия сотрудничества каждому.</p>
+  </div>
+
+<div class="product__order--form">
+  {% component 'uploadForm' %}
+    </div>
+  
+</div>";s:5:"mtime";i:1599506683;s:6:"markup";s:1252:"{##}
+<div class="container">
+<div class="product__order--header">
+    <h1 class="section__title product__order--title">Заказать изготовление ювелирного изделия</h1>
+      <p class="product__order--text">Наша компания предлагает изготовление ювелирных украшений любой сложности, любого вида. Кольца, браслеты, серьги, броши из чистого золота, а также с инкрустированием драгоценными и полудрагоценными камнями. Мы работаем с часами, значками, медалями и другими предметами, в изготовлении которых нужна профессиональная рука ювелира. За более чем 15 лет выполнили тысячи заказов, и каждый раз клиенты остались довольны результатом. Предлагаем выгодные и удобные условия сотрудничества каждому.</p>
+  </div>
+
+<div class="product__order--form">
+  {% component 'uploadForm' %}
+    </div>
+  
+</div>";s:4:"code";N;s:5:"title";s:13:"Product order";s:3:"url";s:14:"/product-order";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:10:"uploadForm";a:15:{s:16:"messages_success";s:65:"Ваша форма была успешно отправлена!";s:15:"messages_errors";s:61:"В вашей заявке содержатся ошибки.";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";s:15:"uploader_enable";s:1:"1";s:14:"uploader_multi";s:1:"1";s:15:"placeholderText";s:77:"Нажмите или перетащите файлы для загрузки";s:10:"removeText";s:20:"Вы уверены?";s:7:"maxSize";s:1:"5";s:9:"fileTypes";a:44:{i:0;s:3:"jpg";i:1;s:4:"jpeg";i:2;s:3:"bmp";i:3;s:3:"png";i:4;s:4:"webp";i:5;s:3:"gif";i:6;s:3:"svg";i:7;s:2:"js";i:8;s:3:"map";i:9;s:3:"ico";i:10;s:3:"css";i:11;s:4:"less";i:12;s:4:"scss";i:13;s:3:"ics";i:14;s:3:"odt";i:15;s:3:"doc";i:16;s:4:"docx";i:17;s:3:"ppt";i:18;s:4:"pptx";i:19;s:3:"pdf";i:20;s:3:"swf";i:21;s:3:"txt";i:22;s:3:"xml";i:23;s:3:"ods";i:24;s:3:"xls";i:25;s:4:"xlsx";i:26;s:3:"eot";i:27;s:4:"woff";i:28;s:5:"woff2";i:29;s:3:"ttf";i:30;s:3:"flv";i:31;s:3:"wmv";i:32;s:3:"mp3";i:33;s:3:"ogg";i:34;s:3:"wav";i:35;s:3:"avi";i:36;s:3:"mov";i:37;s:3:"mp4";i:38;s:4:"mpeg";i:39;s:4:"webm";i:40;s:3:"mkv";i:41;s:3:"rar";i:42;s:3:"xml";i:43;s:3:"zip";}}}}

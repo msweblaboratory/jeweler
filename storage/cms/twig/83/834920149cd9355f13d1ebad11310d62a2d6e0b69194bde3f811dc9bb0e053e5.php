@@ -37,141 +37,43 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
         echo " <!-- Footer -->
     <footer class=\"footer\" id=\"footer\">
         <div class=\"container\">
-
             <div class=\"footer__inner\">
                 <div class=\"footer__col  footer__col--first\">
                     <div class=\"footer__logo\">Masterandgold</div>
-                    <div class=\"footer__text\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    <div class=\"footer__text\"></div>
 
-                    <div class=\"footer__social\">
-                        <div class=\"footer__social-header\">
-                            <b>15k</b> followers
-                        </div>
-                        <div class=\"footer__social-content\">
-                            Follow Us:
-                            <a href=\"#\" target=\"_blank\">
-                                <i class=\"fab fa-facebook\"></i>
-                            </a>
-                            <a href=\"#\" target=\"_blank\">
-                                <i class=\"fab fa-twitter\"></i>
-                            </a>
-                            <a href=\"#\" target=\"_blank\">
-                                <i class=\"fab fa-instagram\"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <form class=\"subscribe\" action=\"/\" method=\"post\">
-                        <input class=\"subscribe__input\" type=\"email\" name=\"name\" placeholder=\"Your Email...\">
-                        <button class=\"subscribe__btn\" type=\"submit\">Subscribe</button>
-                    </form>
                 </div><!-- /.footer__col -->
 
                 <div class=\"footer__col  footer__col--second\">
-                    <div class=\"footer__title\">Blogs</div>
-
-                    <div class=\"blogs\">
-                        <div class=\"blogs__item\">
-                            <img class=\"blogs__img\" src=\"";
-        // line 40
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/blog/1.jpg");
-        echo "\" alt=\"\">
-                            <div class=\"blogs__content\">
-                                <a class=\"blogs__title\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
-                                <div class=\"blogs__date\">Jan 9, 2016</div>
-                            </div>
-                        </div>
-
-                        <div class=\"blogs__item\">
-                            <img class=\"blogs__img\" src=\"";
-        // line 48
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/blog/2.jpg");
-        echo "\" alt=\"\">
-                            <div class=\"blogs__content\">
-                                <a class=\"blogs__title\" href=\"#\">Lorem ipsum dolor</a>
-                                <div class=\"blogs__date\">Jan 9, 2016</div>
-                            </div>
-                        </div>
-
-                        <div class=\"blogs__item\">
-                            <img class=\"blogs__img\" src=\"";
-        // line 56
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/blog/3.jpg");
-        echo "\" alt=\"\">
-                            <div class=\"blogs__content\">
-                                <a class=\"blogs__title\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
-                                <div class=\"blogs__date\">Jan 9, 2016</div>
-                            </div>
-                        </div>
-                    </div><!-- /.blogs -->
+                    <div class=\"social\">
+                    <a class=\"footer__social--item\" href=\"https://www.facebook.com/Ювелир-Киев-Ювелирные-Изделия-662265097554740/\"><img src=\"";
+        // line 14
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/social/facebook.png");
+        echo "\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"https://www.instagram.com/masterandgold/\"><img src=\"";
+        // line 15
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/social/in.png");
+        echo "\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"\"><img src=\"";
+        // line 16
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/social/google.png");
+        echo "\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"\"><img src=\"";
+        // line 17
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/social/youtube.png");
+        echo "\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"viber://chat?number=+380505821213\"><img src=\"";
+        // line 18
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/social/viber.png");
+        echo "\" alt=\"\"></a> 
                 </div>
-
-                <div class=\"footer__col  footer__col--third\">
-                    <div class=\"footer__title\">Instagram</div>
-
-                    <div class=\"instagram\">
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 70
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/1.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 73
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/2.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 76
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/3.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 79
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/4.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 82
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/5.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 85
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/6.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 88
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/7.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 91
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/8.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"";
-        // line 94
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram/9.jpg");
-        echo "\" alt=\"\">
-                        </a>
-                    </div>
-                </div>
-
-            </div><!-- /.footer__inner -->
+                
+                </div><!-- /.footer__inner -->
 
             <div class=\"copyright\">
                 <span>© Masterandgold 2020</span>
             </div>
+
 
         </div><!-- /.container -->
     </footer>";
@@ -189,7 +91,7 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
 
     public function getDebugInfo()
     {
-        return array (  164 => 94,  158 => 91,  152 => 88,  146 => 85,  140 => 82,  134 => 79,  128 => 76,  122 => 73,  116 => 70,  99 => 56,  88 => 48,  77 => 40,  37 => 2,);
+        return array (  67 => 18,  63 => 17,  59 => 16,  55 => 15,  51 => 14,  37 => 2,);
     }
 
     public function getSourceContext()
@@ -198,105 +100,28 @@ class __TwigTemplate_7d95a637514fd8343cbd45eb10369594840b2ac9691032dbd6563a513a8
  <!-- Footer -->
     <footer class=\"footer\" id=\"footer\">
         <div class=\"container\">
-
             <div class=\"footer__inner\">
                 <div class=\"footer__col  footer__col--first\">
                     <div class=\"footer__logo\">Masterandgold</div>
-                    <div class=\"footer__text\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    <div class=\"footer__text\"></div>
 
-                    <div class=\"footer__social\">
-                        <div class=\"footer__social-header\">
-                            <b>15k</b> followers
-                        </div>
-                        <div class=\"footer__social-content\">
-                            Follow Us:
-                            <a href=\"#\" target=\"_blank\">
-                                <i class=\"fab fa-facebook\"></i>
-                            </a>
-                            <a href=\"#\" target=\"_blank\">
-                                <i class=\"fab fa-twitter\"></i>
-                            </a>
-                            <a href=\"#\" target=\"_blank\">
-                                <i class=\"fab fa-instagram\"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <form class=\"subscribe\" action=\"/\" method=\"post\">
-                        <input class=\"subscribe__input\" type=\"email\" name=\"name\" placeholder=\"Your Email...\">
-                        <button class=\"subscribe__btn\" type=\"submit\">Subscribe</button>
-                    </form>
                 </div><!-- /.footer__col -->
 
                 <div class=\"footer__col  footer__col--second\">
-                    <div class=\"footer__title\">Blogs</div>
-
-                    <div class=\"blogs\">
-                        <div class=\"blogs__item\">
-                            <img class=\"blogs__img\" src=\"{{ 'assets/images/blog/1.jpg' | theme }}\" alt=\"\">
-                            <div class=\"blogs__content\">
-                                <a class=\"blogs__title\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
-                                <div class=\"blogs__date\">Jan 9, 2016</div>
-                            </div>
-                        </div>
-
-                        <div class=\"blogs__item\">
-                            <img class=\"blogs__img\" src=\"{{ 'assets/images/blog/2.jpg' | theme }}\" alt=\"\">
-                            <div class=\"blogs__content\">
-                                <a class=\"blogs__title\" href=\"#\">Lorem ipsum dolor</a>
-                                <div class=\"blogs__date\">Jan 9, 2016</div>
-                            </div>
-                        </div>
-
-                        <div class=\"blogs__item\">
-                            <img class=\"blogs__img\" src=\"{{ 'assets/images/blog/3.jpg' | theme }}\" alt=\"\">
-                            <div class=\"blogs__content\">
-                                <a class=\"blogs__title\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
-                                <div class=\"blogs__date\">Jan 9, 2016</div>
-                            </div>
-                        </div>
-                    </div><!-- /.blogs -->
+                    <div class=\"social\">
+                    <a class=\"footer__social--item\" href=\"https://www.facebook.com/Ювелир-Киев-Ювелирные-Изделия-662265097554740/\"><img src=\"{{ 'assets/images/social/facebook.png' | theme }}\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"https://www.instagram.com/masterandgold/\"><img src=\"{{ 'assets/images/social/in.png' | theme }}\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"\"><img src=\"{{ 'assets/images/social/google.png' | theme }}\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"\"><img src=\"{{ 'assets/images/social/youtube.png' | theme }}\" alt=\"\"></a>
+                    <a class=\"footer__social--item\" href=\"viber://chat?number=+380505821213\"><img src=\"{{ 'assets/images/social/viber.png' | theme }}\" alt=\"\"></a> 
                 </div>
-
-                <div class=\"footer__col  footer__col--third\">
-                    <div class=\"footer__title\">Instagram</div>
-
-                    <div class=\"instagram\">
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/1.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/2.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/3.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/4.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/5.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/6.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/7.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/8.jpg' | theme }}\" alt=\"\">
-                        </a>
-                        <a class=\"instagram__item\" href=\"#\" target=\"_blank\">
-                            <img src=\"{{ 'assets/images/instagram/9.jpg' | theme }}\" alt=\"\">
-                        </a>
-                    </div>
-                </div>
-
-            </div><!-- /.footer__inner -->
+                
+                </div><!-- /.footer__inner -->
 
             <div class=\"copyright\">
                 <span>© Masterandgold 2020</span>
             </div>
+
 
         </div><!-- /.container -->
     </footer>", "/home/msweblab/public_html/themes/jeweler/partials/Site/footer.htm", "");

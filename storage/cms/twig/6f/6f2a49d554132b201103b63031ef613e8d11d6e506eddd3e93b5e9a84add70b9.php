@@ -52,7 +52,7 @@ class __TwigTemplate_e30b0c06a3de652cbfaa85e18d0b3c3818f218c9602b5eb3eb3144ac1bf
                         <div class=\"card__img\">
                             <img src=\"";
         // line 18
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/media/1.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/media/1.jpg");
         echo "\" alt=\"\">
                         </div>
                         <div class=\"card__text\">
@@ -70,7 +70,7 @@ class __TwigTemplate_e30b0c06a3de652cbfaa85e18d0b3c3818f218c9602b5eb3eb3144ac1bf
                         <div class=\"card__img\">
                             <img src=\"";
         // line 33
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/media/2.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/media/2.jpg");
         echo "\" alt=\"\">
                         </div>
                         <div class=\"card__text\">
@@ -88,7 +88,7 @@ class __TwigTemplate_e30b0c06a3de652cbfaa85e18d0b3c3818f218c9602b5eb3eb3144ac1bf
                         <div class=\"card__img\">
                             <img src=\"";
         // line 48
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/media/3.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/media/3.jpg");
         echo "\" alt=\"\">
                         </div>
                         <div class=\"card__text\">
@@ -154,7 +154,7 @@ class __TwigTemplate_e30b0c06a3de652cbfaa85e18d0b3c3818f218c9602b5eb3eb3144ac1bf
                 <div class=\"card__item\">
                     <div class=\"card__inner\">
                         <div class=\"card__img\">
-                            <img src=\"{{ 'assets/images/media/1.png' | theme }}\" alt=\"\">
+                            <img src=\"{{ 'assets/images/media/1.jpg' | theme }}\" alt=\"\">
                         </div>
                         <div class=\"card__text\">
                             Смотреть фото
@@ -169,7 +169,7 @@ class __TwigTemplate_e30b0c06a3de652cbfaa85e18d0b3c3818f218c9602b5eb3eb3144ac1bf
                 <div class=\"card__item\">
                     <div class=\"card__inner\">
                         <div class=\"card__img\">
-                            <img src=\"{{ 'assets/images/media/2.png' | theme }}\" alt=\"\">
+                            <img src=\"{{ 'assets/images/media/2.jpg' | theme }}\" alt=\"\">
                         </div>
                         <div class=\"card__text\">
                             Смотреть видео
@@ -184,7 +184,7 @@ class __TwigTemplate_e30b0c06a3de652cbfaa85e18d0b3c3818f218c9602b5eb3eb3144ac1bf
                 <div class=\"card__item\">
                     <div class=\"card__inner\">
                         <div class=\"card__img\">
-                            <img src=\"{{ 'assets/images/media/3.png' | theme }}\" alt=\"\">
+                            <img src=\"{{ 'assets/images/media/3.jpg' | theme }}\" alt=\"\">
                         </div>
                         <div class=\"card__text\">
                             <div class=\"social\">

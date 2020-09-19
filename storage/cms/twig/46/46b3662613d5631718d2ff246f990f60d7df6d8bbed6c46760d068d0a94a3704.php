@@ -39,31 +39,32 @@ class __TwigTemplate_597f68d97ae3489a11235a901668a89c6daf74e5c3cd8b2c4f474fb3dff
         unset($context['__cms_partial_params']);
         // line 3
         echo "
+
 ";
-        // line 4
+        // line 5
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 5
-        echo "
-";
         // line 6
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 7
         echo "
 ";
+        // line 7
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 8
+        echo "
+";
+        // line 9
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 9
+        // line 10
         echo "
 ";
-        // line 10
+        // line 11
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("Site/scripts"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 11
+        // line 12
         echo "
     </body>
 </html>";
@@ -81,13 +82,14 @@ class __TwigTemplate_597f68d97ae3489a11235a901668a89c6daf74e5c3cd8b2c4f474fb3dff
 
     public function getDebugInfo()
     {
-        return array (  67 => 11,  63 => 10,  60 => 9,  56 => 8,  53 => 7,  51 => 6,  48 => 5,  44 => 4,  41 => 3,  37 => 2,);
+        return array (  68 => 12,  64 => 11,  61 => 10,  57 => 9,  54 => 8,  52 => 7,  49 => 6,  45 => 5,  41 => 3,  37 => 2,);
     }
 
     public function getSourceContext()
     {
         return new Source("{##}
 {% partial 'Site/head' %}
+
 
 {% partial 'Site/header' %}
 

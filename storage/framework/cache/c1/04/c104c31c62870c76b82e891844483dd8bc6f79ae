@@ -1,4 +1,4 @@
-1598688823a:1:{s:14:"Home/works.htm";a:6:{s:8:"fileName";s:14:"Home/works.htm";s:7:"content";s:4623:"[viewBag]
+1600458006a:1:{s:14:"Home/works.htm";a:6:{s:8:"fileName";s:14:"Home/works.htm";s:7:"content";s:4939:"[viewBag]
 ==
 {##}
  <!-- Works -->
@@ -74,8 +74,17 @@
                 </div>
             </div>
         </div><!-- /.works -->
+
+        <div class="work__video">
+        <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/urbTIWSDOf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    </section>";s:5:"mtime";i:1598647920;s:6:"markup";s:4610:"{##}
+    </div>
+</div><!-- /.container -->
+
+    </section>
+
+";s:5:"mtime";i:1598773273;s:6:"markup";s:4920:"{##}
  <!-- Works -->
     <section class="section" id="works">
         <div class="container">
@@ -149,5 +158,12 @@
                 </div>
             </div>
         </div><!-- /.works -->
+
+        <div class="work__video">
+        <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/urbTIWSDOf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+    </div>
+</div><!-- /.container -->
+
     </section>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

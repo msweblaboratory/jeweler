@@ -40,18 +40,14 @@ class __TwigTemplate_7de8b68ba411c2ab5c045304f264ce661c63953b19b76cec10400ce9e5b
 
             <div class=\"section__header\">
                 <h3 class=\"section__suptitle\">О НАС</h3>
-                ";
-        // line 8
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("hashfeed"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
-        // line 9
-        echo "                <h2 class=\"section__title\">Ювелирная мастерская \"Masterandgold\"</h2>
+                <h2 class=\"section__title\">Ювелирная мастерская \"Masterandgold\"</h2>
                 <div class=\"section__text\">
                     <p>Наша компания предлагает изготовление ювелирных украшений любой сложности, любого вида. Кольца, браслеты, серьги, броши из чистого золота, а также с инкрустированием драгоценными и полудрагоценными камнями. Мы работаем с часами, значками, медалями и другими предметами, в изготовлении которых нужна профессиональная рука ювелира. За более чем 15 лет выполнили тысячи заказов, и каждый раз клиенты остались довольны результатом. Предлагаем выгодные и удобные условия сотрудничества каждому.</p>
                 </div>
             </div>
-        </div><!-- /.container -->
+            <script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>
+            <div class=\"elfsight-app-663645ba-07c1-4da2-8740-05b180500044\"></div>
+        </div><!-- Container -->
     </section>";
     }
 
@@ -60,14 +56,9 @@ class __TwigTemplate_7de8b68ba411c2ab5c045304f264ce661c63953b19b76cec10400ce9e5b
         return "/home/msweblab/public_html/themes/jeweler/partials/Home/about.htm";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  49 => 9,  45 => 8,  37 => 2,);
+        return array (  37 => 2,);
     }
 
     public function getSourceContext()
@@ -79,13 +70,14 @@ class __TwigTemplate_7de8b68ba411c2ab5c045304f264ce661c63953b19b76cec10400ce9e5b
 
             <div class=\"section__header\">
                 <h3 class=\"section__suptitle\">О НАС</h3>
-                {% component 'hashfeed' %}
                 <h2 class=\"section__title\">Ювелирная мастерская \"Masterandgold\"</h2>
                 <div class=\"section__text\">
                     <p>Наша компания предлагает изготовление ювелирных украшений любой сложности, любого вида. Кольца, браслеты, серьги, броши из чистого золота, а также с инкрустированием драгоценными и полудрагоценными камнями. Мы работаем с часами, значками, медалями и другими предметами, в изготовлении которых нужна профессиональная рука ювелира. За более чем 15 лет выполнили тысячи заказов, и каждый раз клиенты остались довольны результатом. Предлагаем выгодные и удобные условия сотрудничества каждому.</p>
                 </div>
             </div>
-        </div><!-- /.container -->
+            <script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>
+            <div class=\"elfsight-app-663645ba-07c1-4da2-8740-05b180500044\"></div>
+        </div><!-- Container -->
     </section>", "/home/msweblab/public_html/themes/jeweler/partials/Home/about.htm", "");
     }
 }

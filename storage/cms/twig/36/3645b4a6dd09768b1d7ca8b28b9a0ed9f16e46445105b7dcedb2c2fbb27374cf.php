@@ -41,7 +41,7 @@ class __TwigTemplate_f72202affc6a68f754dd9d0f94e68203b2fe6527882f8e8517f6dd6f34c
         echo "\" id=\"header\">
     <div class=\"container\">
         <div class=\"header__inner\">
-            <div class=\"header__logo\"><a class=\"nav__link\" href=\"/\">JewelrLab</a></div>
+            <div class=\"header__logo\"><a class=\"nav__link\" href=\"/\">Masterandgold</a></div>
 
             <nav class=\"nav\" id=\"nav\">
                ";
@@ -97,7 +97,7 @@ class __TwigTemplate_f72202affc6a68f754dd9d0f94e68203b2fe6527882f8e8517f6dd6f34c
 <header class=\"header {% if this.page.id != 'home' %} active {% endif %}\" id=\"header\">
     <div class=\"container\">
         <div class=\"header__inner\">
-            <div class=\"header__logo\"><a class=\"nav__link\" href=\"/\">JewelrLab</a></div>
+            <div class=\"header__logo\"><a class=\"nav__link\" href=\"/\">Masterandgold</a></div>
 
             <nav class=\"nav\" id=\"nav\">
                {% for item in topMenu.menuItems %}

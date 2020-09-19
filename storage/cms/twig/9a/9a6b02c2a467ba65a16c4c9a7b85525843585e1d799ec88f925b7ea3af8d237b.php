@@ -44,7 +44,7 @@ class __TwigTemplate_c6b9687e51c52108a6edf2ab61753c29424d1ef105ae52c7abac6cd2dc1
     <div class=\"intro__content animate__animated animate__fadeInLeft animate__delay-2s\"> 
             <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
             </div>
-                <a class=\"btn animate__animated animate__fadeIn animate__delay-2s\" href=\"#\">Заказать изготовление ювелирного украшения</a>
+                <a class=\"btn animate__animated animate__fadeIn animate__delay-2s\" href=\"/product-order\">Заказать изготовление ювелирного украшения</a>
             </div>
         </div>
     </div><!-- /.intro -->";
@@ -73,7 +73,7 @@ class __TwigTemplate_c6b9687e51c52108a6edf2ab61753c29424d1ef105ae52c7abac6cd2dc1
     <div class=\"intro__content animate__animated animate__fadeInLeft animate__delay-2s\"> 
             <p>Наша мастерская расположена в Киеве, на улице Княжий Затон, 15.<br /> Работаем 7 дней в неделю (в воскресенье укороченный график).<br /> +38(050) 582 1213</p>
             </div>
-                <a class=\"btn animate__animated animate__fadeIn animate__delay-2s\" href=\"#\">Заказать изготовление ювелирного украшения</a>
+                <a class=\"btn animate__animated animate__fadeIn animate__delay-2s\" href=\"/product-order\">Заказать изготовление ювелирного украшения</a>
             </div>
         </div>
     </div><!-- /.intro -->", "/home/msweblab/public_html/themes/jeweler/partials/Home/intro.htm", "");

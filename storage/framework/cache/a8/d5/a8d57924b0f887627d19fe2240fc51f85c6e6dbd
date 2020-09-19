@@ -1,4 +1,4 @@
-1598688823a:1:{s:19:"Home/advantages.htm";a:6:{s:8:"fileName";s:19:"Home/advantages.htm";s:7:"content";s:3210:"[viewBag]
+1600458006a:1:{s:19:"Home/advantages.htm";a:6:{s:8:"fileName";s:19:"Home/advantages.htm";s:7:"content";s:3210:"[viewBag]
 ==
 {##}
  <!-- Advantages -->
@@ -55,7 +55,7 @@
             </div>
 
         </div><!-- /.container -->
-    </section>";s:5:"mtime";i:1598017244;s:6:"markup";s:3195:"{##}
+    </section>";s:5:"mtime";i:1597604136;s:6:"markup";s:3195:"{##}
  <!-- Advantages -->
     <section class="section" id="advantages">
         <div class="container">

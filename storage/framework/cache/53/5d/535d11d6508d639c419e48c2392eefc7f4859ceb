@@ -1,4 +1,4 @@
-1598688823a:1:{s:15:"Home/making.htm";a:6:{s:8:"fileName";s:15:"Home/making.htm";s:7:"content";s:930:"[viewBag] 
+1600458006a:1:{s:15:"Home/making.htm";a:6:{s:8:"fileName";s:15:"Home/making.htm";s:7:"content";s:930:"[viewBag] 
 == 
 {##}
 <!-- Devices -->
@@ -19,14 +19,14 @@
     <div class="making">
       <img
         class="making__item"
-        src="{{ 'assets/images/making-img.png' | theme }}"
+        src="{{ 'assets/images/making-img.jpg' | theme }}"
         alt=""
       />
     </div>
   </div>
 </section>
 
-";s:5:"mtime";i:1598017244;s:6:"markup";s:913:"{##}
+";s:5:"mtime";i:1600198511;s:6:"markup";s:913:"{##}
 <!-- Devices -->
 <section class="section section--making">
   <div class="container">
@@ -45,7 +45,7 @@
     <div class="making">
       <img
         class="making__item"
-        src="{{ 'assets/images/making-img.png' | theme }}"
+        src="{{ 'assets/images/making-img.jpg' | theme }}"
         alt=""
       />
     </div>

@@ -1,4 +1,4 @@
-1598695662a:1:{s:13:"Site/head.htm";a:6:{s:8:"fileName";s:13:"Site/head.htm";s:7:"content";s:900:"[viewBag]
+1600457668a:1:{s:13:"Site/head.htm";a:6:{s:8:"fileName";s:13:"Site/head.htm";s:7:"content";s:900:"[viewBag]
 ==
 {##}
 <!DOCTYPE html>
@@ -16,7 +16,7 @@
     <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
     {% styles %}
 </head>
-<body>";s:5:"mtime";i:1598017244;s:6:"markup";s:885:"{##}
+<body>";s:5:"mtime";i:1600369364;s:6:"markup";s:885:"{##}
 <!DOCTYPE html>
 <html>
 <head>

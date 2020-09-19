@@ -54,7 +54,7 @@ class __TwigTemplate_dc5cc62467a73008967387306c4029ac921b4487b6a2817f4f9574b25e3
         class=\"making__item\"
         src=\"";
         // line 20
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/making-img.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/making-img.jpg");
         echo "\"
         alt=\"\"
       />
@@ -99,7 +99,7 @@ class __TwigTemplate_dc5cc62467a73008967387306c4029ac921b4487b6a2817f4f9574b25e3
     <div class=\"making\">
       <img
         class=\"making__item\"
-        src=\"{{ 'assets/images/making-img.png' | theme }}\"
+        src=\"{{ 'assets/images/making-img.jpg' | theme }}\"
         alt=\"\"
       />
     </div>

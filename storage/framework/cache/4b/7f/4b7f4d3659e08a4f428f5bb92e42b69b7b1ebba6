@@ -1,4 +1,4 @@
-1598688822a:1:{s:8:"main.htm";a:7:{s:8:"fileName";s:8:"main.htm";s:7:"content";s:239:"description = "main layout"
+1600457668a:1:{s:8:"main.htm";a:7:{s:8:"fileName";s:8:"main.htm";s:7:"content";s:235:"description = "main layout"
 
 [staticPage]
 useContent = 1
@@ -6,6 +6,7 @@ default = 0
 ==
 {##}
 {% partial 'Site/head' %}
+
 
 {% partial 'Site/header' %}
 
@@ -16,8 +17,9 @@ default = 0
 {% partial 'Site/scripts' %}
 
     </body>
-</html>";s:5:"mtime";i:1598045739;s:6:"markup";s:161:"{##}
+</html>";s:5:"mtime";i:1600369536;s:6:"markup";s:163:"{##}
 {% partial 'Site/head' %}
+
 
 {% partial 'Site/header' %}
 

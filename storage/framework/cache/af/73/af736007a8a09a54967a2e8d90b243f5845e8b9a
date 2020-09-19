@@ -1,4 +1,4 @@
-1598688823a:1:{s:15:"Site/header.htm";a:7:{s:8:"fileName";s:15:"Site/header.htm";s:7:"content";s:977:"[viewBag]
+1600457668a:1:{s:15:"Site/header.htm";a:7:{s:8:"fileName";s:15:"Site/header.htm";s:7:"content";s:986:"[viewBag]
 
 [staticMenu topMenu]
 code = "main-menu"
@@ -7,7 +7,7 @@ code = "main-menu"
 <header class="header {% if this.page.id != 'home' %} active {% endif %}" id="header">
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo"><a class="nav__link" href="/">JewelrLab</a></div>
+            <div class="header__logo"><a class="nav__link" href="/">Masterandgold</a></div>
 
             <nav class="nav" id="nav">
                {% for item in topMenu.menuItems %}
@@ -25,11 +25,11 @@ code = "main-menu"
             </button>
         </div>
     </div>
-</header>";s:5:"mtime";i:1598619763;s:6:"markup";s:923:"{##}
+</header>";s:5:"mtime";i:1598788150;s:6:"markup";s:927:"{##}
 <header class="header {% if this.page.id != 'home' %} active {% endif %}" id="header">
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo"><a class="nav__link" href="/">JewelrLab</a></div>
+            <div class="header__logo"><a class="nav__link" href="/">Masterandgold</a></div>
 
             <nav class="nav" id="nav">
                {% for item in topMenu.menuItems %}

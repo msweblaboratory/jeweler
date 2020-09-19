@@ -1,4 +1,4 @@
-1598688823a:1:{s:18:"Blog/last_post.htm";a:6:{s:8:"fileName";s:18:"Blog/last_post.htm";s:7:"content";s:1866:"[blogPosts lastPosts]
+1600458006a:1:{s:18:"Blog/last_post.htm";a:6:{s:8:"fileName";s:18:"Blog/last_post.htm";s:7:"content";s:1866:"[blogPosts lastPosts]
 pageNumber = "{{ :slug }}"
 postsPerPage = 3
 noPostsMessage = "Записей не найдено"
@@ -57,7 +57,7 @@ postPage = "post"
 
 </div><!-- /.blog -->
     </div><!-- /.container -->
-</section>";s:5:"mtime";i:1598430683;s:6:"markup";s:1663:"{##}
+</section>";s:5:"mtime";i:1598358120;s:6:"markup";s:1663:"{##}
 
 
 

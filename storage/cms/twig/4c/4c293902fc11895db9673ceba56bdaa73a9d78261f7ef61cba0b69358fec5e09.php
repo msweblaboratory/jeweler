@@ -128,7 +128,14 @@ class __TwigTemplate_0ac3e6e8726fa60705807a15480a83a8b57769688dec4772e92b7968fb9
                 </div>
             </div>
         </div><!-- /.works -->
+
+        <div class=\"work__video\">
+        <div class=\"video-responsive\">
+            <iframe src=\"https://www.youtube.com/embed/urbTIWSDOf0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
         </div>
+    </div>
+</div><!-- /.container -->
+
     </section>";
     }
 
@@ -223,7 +230,14 @@ class __TwigTemplate_0ac3e6e8726fa60705807a15480a83a8b57769688dec4772e92b7968fb9
                 </div>
             </div>
         </div><!-- /.works -->
+
+        <div class=\"work__video\">
+        <div class=\"video-responsive\">
+            <iframe src=\"https://www.youtube.com/embed/urbTIWSDOf0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
         </div>
+    </div>
+</div><!-- /.container -->
+
     </section>", "/home/msweblab/public_html/themes/jeweler/partials/Home/works.htm", "");
     }
 }

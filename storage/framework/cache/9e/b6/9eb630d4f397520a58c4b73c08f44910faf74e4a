@@ -1,4 +1,4 @@
-1598646786a:1:{s:18:"Blog/blog_post.htm";a:6:{s:8:"fileName";s:18:"Blog/blog_post.htm";s:7:"content";s:1570:"[blogPosts]
+1600458009a:1:{s:18:"Blog/blog_post.htm";a:6:{s:8:"fileName";s:18:"Blog/blog_post.htm";s:7:"content";s:1570:"[blogPosts]
 pageNumber = "{{ :page }}"
 categoryFilter = "blog"
 postsPerPage = 20
@@ -52,7 +52,7 @@ postPage = "post"
 
 </div><!-- /.blog -->
     </div><!-- /.container -->
-</section>";s:5:"mtime";i:1598430683;s:6:"markup";s:1375:"{##}
+</section>";s:5:"mtime";i:1598358120;s:6:"markup";s:1375:"{##}
 
 {% set posts = blogPosts.posts %}
 

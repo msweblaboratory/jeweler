@@ -1,4 +1,4 @@
-1598688823a:1:{s:14:"main-menu.yaml";a:7:{s:8:"fileName";s:14:"main-menu.yaml";s:7:"content";s:1410:"name: 'Главное меню'
+1600457668a:1:{s:14:"main-menu.yaml";a:7:{s:8:"fileName";s:14:"main-menu.yaml";s:7:"content";s:862:"name: 'Главное меню'
 items:
     -
         title: Главная
@@ -15,39 +15,13 @@ items:
             isExternal: '0'
     -
         title: Контакты
-        nesting: ''
+        nesting: null
         type: cms-page
-        url: ''
+        url: null
         code: ''
-        reference: contact-us
-        cmsPage: ''
-        replace: ''
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Мои работы'
-        nesting: ''
-        type: cms-page
-        url: ''
-        code: ''
-        reference: works
-        cmsPage: ''
-        replace: ''
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: Магазин
-        nesting: ''
-        type: cms-page
-        url: ''
-        code: ''
-        reference: shope
-        cmsPage: ''
-        replace: ''
+        reference: contact
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -65,4 +39,4 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-";s:5:"mtime";i:1598017244;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}
+";s:5:"mtime";i:1600197167;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

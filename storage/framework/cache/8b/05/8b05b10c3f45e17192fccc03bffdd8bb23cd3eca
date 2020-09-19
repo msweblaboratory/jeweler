@@ -1,4 +1,4 @@
-1598688823a:1:{s:14:"Home/media.htm";a:6:{s:8:"fileName";s:14:"Home/media.htm";s:7:"content";s:3996:"[viewBag]
+1600458006a:1:{s:14:"Home/media.htm";a:6:{s:8:"fileName";s:14:"Home/media.htm";s:7:"content";s:3996:"[viewBag]
 ==
 {##}
 <!-- Media -->
@@ -17,7 +17,7 @@
                 <div class="card__item">
                     <div class="card__inner">
                         <div class="card__img">
-                            <img src="{{ 'assets/images/media/1.png' | theme }}" alt="">
+                            <img src="{{ 'assets/images/media/1.jpg' | theme }}" alt="">
                         </div>
                         <div class="card__text">
                             Смотреть фото
@@ -32,7 +32,7 @@
                 <div class="card__item">
                     <div class="card__inner">
                         <div class="card__img">
-                            <img src="{{ 'assets/images/media/2.png' | theme }}" alt="">
+                            <img src="{{ 'assets/images/media/2.jpg' | theme }}" alt="">
                         </div>
                         <div class="card__text">
                             Смотреть видео
@@ -47,7 +47,7 @@
                 <div class="card__item">
                     <div class="card__inner">
                         <div class="card__img">
-                            <img src="{{ 'assets/images/media/3.png' | theme }}" alt="">
+                            <img src="{{ 'assets/images/media/3.jpg' | theme }}" alt="">
                         </div>
                         <div class="card__text">
                             <div class="social">
@@ -76,7 +76,7 @@
 
         </div><!-- /.container -->
     </section>
-";s:5:"mtime";i:1598017244;s:6:"markup";s:3982:"{##}
+";s:5:"mtime";i:1600199241;s:6:"markup";s:3982:"{##}
 <!-- Media -->
     <section class="section">
         <div class="container">
@@ -93,7 +93,7 @@
                 <div class="card__item">
                     <div class="card__inner">
                         <div class="card__img">
-                            <img src="{{ 'assets/images/media/1.png' | theme }}" alt="">
+                            <img src="{{ 'assets/images/media/1.jpg' | theme }}" alt="">
                         </div>
                         <div class="card__text">
                             Смотреть фото
@@ -108,7 +108,7 @@
                 <div class="card__item">
                     <div class="card__inner">
                         <div class="card__img">
-                            <img src="{{ 'assets/images/media/2.png' | theme }}" alt="">
+                            <img src="{{ 'assets/images/media/2.jpg' | theme }}" alt="">
                         </div>
                         <div class="card__text">
                             Смотреть видео
@@ -123,7 +123,7 @@
                 <div class="card__item">
                     <div class="card__inner">
                         <div class="card__img">
-                            <img src="{{ 'assets/images/media/3.png' | theme }}" alt="">
+                            <img src="{{ 'assets/images/media/3.jpg' | theme }}" alt="">
                         </div>
                         <div class="card__text">
                             <div class="social">

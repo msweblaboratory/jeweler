@@ -1,0 +1,23 @@
+1600458006a:1:{s:13:"Home/maps.htm";a:5:{s:8:"fileName";s:13:"Home/maps.htm";s:7:"content";s:401:"{##}
+
+<section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <a href="https://goo.gl/maps/rj7aLbi9ZsAt6NZp8" target="_blank">Открыть карту</a>
+                </h2>
+            </div>
+        </div>
+    </section>";s:5:"mtime";i:1598773273;s:6:"markup";s:401:"{##}
+
+<section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <a href="https://goo.gl/maps/rj7aLbi9ZsAt6NZp8" target="_blank">Открыть карту</a>
+                </h2>
+            </div>
+        </div>
+    </section>";s:4:"code";N;}}
