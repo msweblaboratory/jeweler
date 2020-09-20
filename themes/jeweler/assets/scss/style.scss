@@ -144,10 +144,12 @@ hr {
 
 .intro__content {
   color: #fce38a;
+  line-height: 1.8;
   text-align: center;
   border: 3px solid #ef5350;
   background: #121212;
   margin-bottom: 50px;
+  padding: 0 10px;
 }
 
 /* Header */
@@ -578,11 +580,12 @@ hr {
   font-size: 14px;
   color: #333;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .advantages__text {
   font-size: 15px;
-  color: #999;
+  color: #121212;
 }
 
 /* Making */
@@ -839,6 +842,7 @@ hr {
 .works__item {
   position: relative;
   background: linear-gradient(to bottom, #666, #202020);
+  margin: 0px 0px 1px 1px;
 
   &:hover {
     .works__image {
