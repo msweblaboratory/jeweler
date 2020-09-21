@@ -7,7 +7,7 @@ is_hidden = 0
 
 
 <div class="section-start">
-        <div class="container">
+        {# <div class="container">
             <div class="section__header">
             <img class="img-responsive" src="{{ '/assets/images/start/main-logo.png' |theme }}" width="379px" alt="Логотип"  />
             <h1 class="start__title">Ювелирная мастерская в Киеве</h1>
@@ -17,5 +17,23 @@ is_hidden = 0
             </div>
             <a class="btn" href="/home">Перейти на сайт</a>
             </div>
-        </div>
-    </div>
+        </div> #}
+
+  <div class="start__video">
+    <video class="video" loop="loop" autoplay="" muted="" poster="https://denis-creative.com/wp-content/uploads/2020/04/video-poster.jpg">
+      <source src="{{ '/assets/images/start/start.mp4' |theme }}" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="start__content">
+  <img class="img-responsive" src="{{ '/assets/images/start/main-logo.png' |theme }}" width="379px" alt="Логотип"  />
+    <h1 class="start__title">Ювелирная мастерская в Киеве</h1>
+
+    <p><strong>Наш адрес:</strong> г. Киев, ул. Княжий Затон, 15.<br />
+        <strong>Тел:.</strong> +38(050) 582 1213</p>
+
+        <a class="btn" href="/home">Перейти на сайт</a>
+    
+  </div>
+
+</div>

@@ -69,30 +69,60 @@ hr {
   margin: 0 auto;
 }
 
-/* Start */
-.start__title {
-  color: #ef5350;
-  font-size: 52px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1.2;
+.start__video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-.start__title:after {
+.start__video:before {
   content: "";
   display: block;
-  width: 60px;
-  height: 3px;
-  margin: 30px auto;
-  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.start__video .video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .start__content {
-  color: #fce38a;
+  position: relative;
+  z-index: 2;
   text-align: center;
-  border: 3px solid #ef5350;
-  background: #121212;
-  margin-bottom: 50px;
+  color: #fff;
+}
+
+.start__title {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  .start__video {
+    background: url(...) 50% 50% no-repeat;
+    background-size: cover;
+  }
+  .start__video .video {
+    display: none;
+  }
 }
 
 /* Intro */
@@ -354,10 +384,18 @@ hr {
 
 /* Section */
 .section-start {
-  background: url("../images/start/start.gif") center no-repeat;
-  background-size: cover;
+  position: relative;
   min-height: 100vh;
-  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section {
@@ -1267,10 +1305,6 @@ hr {
 }
 
 @media (max-width: 1230px) {
-  /* Start */
-  .start__title {
-    font-size: 48px;
-  }
   /* Intro */
   .intro__suptitle {
     font-size: 68px;
@@ -1285,10 +1319,6 @@ hr {
 }
 
 @media (max-width: 990px) {
-  /* Start */
-  .start__title {
-    font-size: 46px;
-  }
   /* Intro */
   .intro__suptitle {
     font-size: 62px;
@@ -1343,10 +1373,6 @@ hr {
 }
 
 @media (max-width: 770px) {
-  /* Start */
-  .start__title {
-    font-size: 36px;
-  }
   /* Intro */
   .intro {
     min-height: 650px;
@@ -1476,16 +1502,6 @@ hr {
 }
 
 @media (max-width: 575px) {
-  /* Start */
-  .start__title {
-    font-size: 18px;
-  }
-  .start__content {
-    margin-bottom: 5%;
-  }
-  .start__title:after {
-    margin: 15px auto;
-  }
   /* Intro */
   .intro__suptitle {
     font-size: 36px;
